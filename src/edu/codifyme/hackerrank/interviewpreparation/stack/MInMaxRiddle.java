@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.topinterviewquestions.stack;
+package edu.codifyme.hackerrank.interviewpreparation.stack;
 
 import java.util.Stack;
 

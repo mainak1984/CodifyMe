@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.topinterviewquestions.sorting;
+package edu.codifyme.hackerrank.interviewpreparation.sorting;
 
 /**
  * MEDIUM: https://www.hackerrank.com/challenges/ctci-merge-sort/problem

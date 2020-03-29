@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.topinterviewquestions.sorting;
+package edu.codifyme.hackerrank.interviewpreparation.sorting;
 
 import java.util.LinkedList;
 import java.util.Queue;

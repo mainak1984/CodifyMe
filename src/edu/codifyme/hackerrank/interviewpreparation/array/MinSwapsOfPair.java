@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.topinterviewquestions.array;
+package edu.codifyme.hackerrank.interviewpreparation.array;
 
 /**
  * MEDIUM: https://www.hackerrank.com/challenges/minimum-swaps-2/problem

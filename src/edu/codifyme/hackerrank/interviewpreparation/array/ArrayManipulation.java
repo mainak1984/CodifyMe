@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.topinterviewquestions.array;
+package edu.codifyme.hackerrank.interviewpreparation.array;
 
 /**
  * HARD: https://www.hackerrank.com/challenges/crush/problem
