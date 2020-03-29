@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.list1;
+package edu.codifyme.leetcode.interview.unordered;
 
 /** Easy: https://leetcode.com/problems/valid-parentheses/ **/
 

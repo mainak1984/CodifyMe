@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.list1;
+package edu.codifyme.leetcode.interview.unordered;
 
 import java.util.ArrayList;
 import java.util.HashMap;

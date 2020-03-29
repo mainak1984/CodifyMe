@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.list1;
+package edu.codifyme.leetcode.interview.unordered;
 
 /** EASY: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/ */
 

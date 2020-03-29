@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.list1;
+package edu.codifyme.leetcode.interview.unordered;
 
 /**
  * 34. Find First and Last Position of Element in Sorted Array
