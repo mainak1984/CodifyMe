@@ -1,9 +1,11 @@
-package edu.codifyme.leetcode.interview.topinterviewquestions.list;
+package edu.codifyme.leetcode.interview.googledeck.arraynstring;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
+ * HARD:
+ *
  * Merge k Sorted Lists
  * HARD: https://leetcode.com/problems/merge-k-sorted-lists/
  *
