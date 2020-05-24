@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * MEDIUM:
  * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3054/
  *
  * Given a string s , find the length of the longest substring t  that contains at most 2 distinct characters.

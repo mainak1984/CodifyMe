@@ -3,6 +3,7 @@ package edu.codifyme.leetcode.interview.googledeck.intro;
 import java.util.TreeMap;
 
 /**
+ * HARD:
  * https://leetcode.com/explore/interview/card/google/67/sql-2/3045/
  *
  * You are given an integer array A.  From some starting index, you can make a series of jumps.  The (1st, 3rd, 5th, ...) jumps in the series are called odd numbered jumps, and the (2nd, 4th, 6th, ...) jumps in the series are called even numbered jumps.

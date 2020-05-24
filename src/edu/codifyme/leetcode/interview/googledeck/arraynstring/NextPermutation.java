@@ -1,6 +1,7 @@
 package edu.codifyme.leetcode.interview.googledeck.arraynstring;
 
 /**
+ * MEDIUM:
  * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3050/
  *
  * Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.

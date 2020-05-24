@@ -3,6 +3,7 @@ package edu.codifyme.leetcode.interview.googledeck.arraynstring;
 import java.util.HashMap;
 
 /**
+ * HARD:
  * https://leetcode.com/explore/interview/card/google/59/array-and-strings/345/
  *
  * Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).

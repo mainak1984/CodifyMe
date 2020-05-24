@@ -3,6 +3,7 @@ package edu.codifyme.leetcode.interview.googledeck.intro;
 import java.util.HashMap;
 
 /**
+ * MEDIUM:
  * https://leetcode.com/explore/interview/card/google/67/sql-2/3046/
  *
  * In a row of trees, the i-th tree produces fruit with type tree[i].

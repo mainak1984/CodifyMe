@@ -1,6 +1,7 @@
 package edu.codifyme.leetcode.interview.googledeck.arraynstring;
 
 /**
+ * MEDIUM:
  * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3051/
  *
  * Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.

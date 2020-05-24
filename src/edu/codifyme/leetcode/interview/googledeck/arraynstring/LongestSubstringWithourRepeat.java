@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * MEDIUM:
  * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3047/
  *
  * Given a string, find the length of the longest substring without repeating characters.

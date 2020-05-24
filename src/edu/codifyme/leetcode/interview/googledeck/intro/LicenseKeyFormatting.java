@@ -1,6 +1,7 @@
 package edu.codifyme.leetcode.interview.googledeck.intro;
 
 /**
+ * EASY:
  * https://leetcode.com/explore/interview/card/google/67/sql-2/472/
  *
  * You are given a license key represented as a string S which consists only alphanumeric character and dashes. The string is separated into N+1 groups by N dashes.
