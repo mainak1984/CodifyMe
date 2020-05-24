@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.unordered;
+package edu.codifyme.leetcode.interview.googledeck.arraynstring;
 
 import java.util.PriorityQueue;
 
@@ -24,23 +24,18 @@ import java.util.PriorityQueue;
  * You may assume that nums' length ≥ k-1 and k ≥ 1.
  */
 public class KthLargest {
-    final PriorityQueue<Integer> q;
-    final int k;
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
 
-    public KthLargest(int k, int[] a) {
-        this.k = k;
-        q = new PriorityQueue<>(k);
-        for (int n : a)
-            add(n);
-    }
-
-    public int add(int n) {
-        if (q.size() < k)
-            q.offer(n);
-        else if (q.peek() < n) {
-            q.poll();
-            q.offer(n);
+        for (int num: nums) {
+            if ( queue.size() < k || queue.peek() < num ) {
+                queue.add(num);
+            }
+            if ( queue.size() > k ) {
+                queue.poll();
+            }
         }
-        return q.peek();
+
+        return queue.peek();
     }
 }
