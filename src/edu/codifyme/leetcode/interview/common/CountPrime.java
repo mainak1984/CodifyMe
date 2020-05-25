@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.unordered;
+package edu.codifyme.leetcode.interview.common;
 
 /**
  * 204. Count Primes

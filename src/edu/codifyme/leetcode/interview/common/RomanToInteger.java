@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.unordered;
+package edu.codifyme.leetcode.interview.common;
 
 public class RomanToInteger {
     /** EASY: https://leetcode.com/problems/roman-to-integer/ **/

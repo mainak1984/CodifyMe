@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.unordered;
+package edu.codifyme.leetcode.interview.topinterviewquestions.stack;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

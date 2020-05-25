@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.unordered;
+package edu.codifyme.leetcode.interview.topinterviewquestions.tree;
 
 /**
  * Invert Binary Tree

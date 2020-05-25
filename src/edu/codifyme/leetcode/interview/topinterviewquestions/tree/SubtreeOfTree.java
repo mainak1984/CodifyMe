@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.unordered;
+package edu.codifyme.leetcode.interview.topinterviewquestions.tree;
 
 /**
  * 572. Subtree of Another Tree
