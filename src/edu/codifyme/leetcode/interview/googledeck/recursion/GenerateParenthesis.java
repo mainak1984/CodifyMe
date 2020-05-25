@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.common;
+package edu.codifyme.leetcode.interview.googledeck.recursion;
 
 import java.util.ArrayList;
 import java.util.List;
