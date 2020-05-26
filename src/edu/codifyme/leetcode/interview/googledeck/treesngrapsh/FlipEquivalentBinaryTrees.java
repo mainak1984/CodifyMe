@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.googledeck;
+package edu.codifyme.leetcode.interview.googledeck.treesngrapsh;
 
 /**
  * MEDIUM:
