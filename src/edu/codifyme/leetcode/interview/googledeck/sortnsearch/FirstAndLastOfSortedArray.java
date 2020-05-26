@@ -1,8 +1,9 @@
-package edu.codifyme.leetcode.interview.common;
+package edu.codifyme.leetcode.interview.googledeck.sortnsearch;
 
 /**
  * 34. Find First and Last Position of Element in Sorted Array
- * EASY: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+ * MEDIUM:
+ * https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
  *
  * Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
  *
@@ -33,7 +34,9 @@ public class FirstAndLastOfSortedArray {
     private void recur(int[] nums, int left, int right, int target, int[] arr, int indexPos, boolean isLeft) {
         int mid = ((left + right) / 2);
 
+        // you have reached end of branching
         if ( left > right ) {
+            // Still you have not found a matching element ever, set result to -1
             if ( isLeft && arr[indexPos] == Integer.MAX_VALUE ) {
                 arr[indexPos] = -1;
             }
@@ -43,6 +46,7 @@ public class FirstAndLastOfSortedArray {
             return;
         }
 
+        // If found a result, see if you can update this finding as possible result
         if ( nums[mid] == target ) {
             if ( isLeft && arr[indexPos] > mid ) {
                 arr[indexPos] = mid;
@@ -59,6 +63,7 @@ public class FirstAndLastOfSortedArray {
             // search right
             recur(nums, mid+1, right, target, arr, indexPos, isLeft);
         } else {
+            // Keep going even if you have found the result
             if (isLeft) {
                 // search left
                 recur(nums, left, mid-1, target, arr, indexPos, isLeft);
