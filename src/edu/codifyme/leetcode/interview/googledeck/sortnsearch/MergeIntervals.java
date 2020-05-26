@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.topinterviewquestions.array;
+package edu.codifyme.leetcode.interview.googledeck.sortnsearch;
 
 import java.util.ArrayList;
 import java.util.Arrays;
