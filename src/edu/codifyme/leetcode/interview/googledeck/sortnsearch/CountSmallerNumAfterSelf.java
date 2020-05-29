@@ -20,8 +20,6 @@ import java.util.List;
  * To the right of 1 there is 0 smaller element.
  */
 public class CountSmallerNumAfterSelf {
-    Node head;
-
     public List<Integer> countSmaller(int[] nums) {
         List<Integer> result = new LinkedList<>();
 
@@ -30,11 +28,11 @@ public class CountSmallerNumAfterSelf {
         }
 
         // add first node
-        head = new Node(nums[nums.length-1]);
+        Node head = new Node(nums[nums.length-1]);
         result.add(0);
 
         for(int loop = nums.length - 2; loop >= 0 ; loop--) {
-            int noOfElem = getLessElementNo(head, nums[loop], head.leftSize);
+            int noOfElem = getLessElementNo(head, nums[loop], 0);
             result.add(0, noOfElem);
         }
 
@@ -42,33 +40,24 @@ public class CountSmallerNumAfterSelf {
     }
 
     int getLessElementNo(Node node, int num, int count) {
-        // System.out.println("num "+num+", count "+count);
-        if (num < node.val ) {
+        if (num <= node.val ) {
             if ( null == node.left ) {
-                // insert left; increase count and leave
                 Node newNode = new Node(num);
                 node.left = newNode;
                 node.leftSize += 1;
-                // System.out.println(node.val+" leftsize ->"+node.leftSize);
                 return count;
             } else {
+                node.leftSize += 1;
                 return getLessElementNo(node.left, num, count);
             }
-        } else if (num > node.val ) {
+        } else {
             if ( null == node.right ) {
-                // insert right; increase count and leave
                 Node newNode = new Node(num);
                 node.right = newNode;
-                return count + 1;
+                return count + node.leftSize + 1;
             } else {
-                // System.out.println("calling right from "+node.val+" to "+node.right.val+"with count "+(count + 1 + node.leftSize));
                 return getLessElementNo(node.right, num, count + 1 + node.leftSize);
             }
-        } else {
-            Node newNode = new Node(num);
-            node.left = newNode;
-            node.leftSize += 1;
-            return count;
         }
     }
 
