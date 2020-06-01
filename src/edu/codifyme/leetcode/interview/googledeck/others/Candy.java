@@ -44,7 +44,7 @@ public class Candy {
          }
          return sum;
         }
-        
+
 //    public int candy(int[] ratings) {
 //        int[] candies = new int[ratings.length];
 //        int[] candiesR = new int[ratings.length];
