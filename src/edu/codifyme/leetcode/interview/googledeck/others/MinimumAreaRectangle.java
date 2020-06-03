@@ -35,6 +35,10 @@ import java.util.Set;
  * Algorithm
  * Put all the points in a set. For each pair of points, if the associated rectangle are 4 distinct points all in the
  * set, then take the area of this rectangle as a candidate answer.
+ *
+ * Complexity Analysis
+ * Time Complexity: O(N^2), where NN is the length of points.
+ * Space Complexity: O(N), where HH is the height of the tree.
  */
 public class MinimumAreaRectangle {
     public int minAreaRect(int[][] points) {
