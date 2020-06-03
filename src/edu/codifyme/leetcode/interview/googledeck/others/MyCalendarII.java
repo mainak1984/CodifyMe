@@ -78,7 +78,7 @@ public class MyCalendarII {
 //         return true;
 //     }
 
-    
+
     // APPROACH 2:
     TreeMap<Integer, Integer> overlap;
     TreeMap<Integer, Integer> intervals;
