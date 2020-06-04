@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.topinterviewquestions.stack;
+package edu.codifyme.leetcode.interview.googledeck.design;
 
 import java.util.Stack;
 
