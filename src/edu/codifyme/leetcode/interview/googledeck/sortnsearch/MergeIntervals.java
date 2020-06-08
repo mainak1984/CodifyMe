@@ -8,6 +8,8 @@ import java.util.List;
  * 56. Merge Intervals
  * MEDIUM: https://leetcode.com/problems/merge-intervals/
  *
+ * Included in Mock set
+ *
  * Given a collection of intervals, merge all overlapping intervals.
  *
  * Example 1:
