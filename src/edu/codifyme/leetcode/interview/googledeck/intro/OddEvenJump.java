@@ -4,7 +4,7 @@ import java.util.TreeMap;
 
 /**
  * HARD:
- * https://leetcode.com/explore/interview/card/google/67/sql-2/3045/
+ * https://leetcode.com/problems/odd-even-jump
  *
  * You are given an integer array A.  From some starting index, you can make a series of jumps.  The (1st, 3rd, 5th, ...) jumps in the series are called odd numbered jumps, and the (2nd, 4th, 6th, ...) jumps in the series are called even numbered jumps.
  *
@@ -44,12 +44,15 @@ import java.util.TreeMap;
  *
  * Approach 2: Tree Map
  * Intuition
- * As in Approach 1, the problem reduces to solving this question: for some index i during an odd numbered jump, what index do we jump to (if any)?
+ * As in Approach 1, the problem reduces to solving this question: for some index i during an odd numbered jump, what
+ * index do we jump to (if any)?
  *
  * Algorithm
- * We can use a TreeMap, which is an excellent structure for maintaining sorted data. Our map vals will map values v = A[i] to indices i.
- * Iterating from i = N-2 to i = 0, we have some value v = A[i] and we want to know what the next largest or next smallest value is. The TreeMap.lowerKey and TreeMap.higherKey functions do this for us.
- * With this in mind, the rest of the solution is straightforward: we use dynamic programming to maintain odd[i] and even[i]: whether the state of being at index i on an odd or even numbered jump is possible to reach.
+ * We can use a TreeMap, which is an excellent structure for maintaining sorted data. Our map vals will map values
+ * v = A[i] to indices i. Iterating from i = N-2 to i = 0, we have some value v = A[i] and we want to know what the next
+ * largest or next smallest value is. The TreeMap.lowerKey and TreeMap.higherKey functions do this for us.
+ * With this in mind, the rest of the solution is straightforward: we use dynamic programming to maintain odd[i] and
+ * even[i]: whether the state of being at index i on an odd or even numbered jump is possible to reach.
  *
  * Complexity Analysis
  * Time Complexity: O(NlogN), where N is the length of A.
