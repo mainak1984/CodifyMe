@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.googledeck.mockprep;
+package edu.codifyme.leetcode.interview.googledeck.arraynstring;
 
 import java.util.Arrays;
 
