@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * EASY:
- * https://leetcode.com/explore/interview/card/google/59/array-and-strings/339/
+ * https://leetcode.com/problems/plus-one
  *
  * Included in Mock set
  *

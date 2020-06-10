@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.interview.googledeck.arraynstring;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3053/
+ * https://leetcode.com/problems/jump-game
  *
  * Given an array of non-negative integers, you are initially positioned at the first index of the array.
  * Each element in the array represents your maximum jump length at that position.

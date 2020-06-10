@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3056/
+ * https://leetcode.com/problems/expressive-words
  *
  * Sometimes people repeat letters to represent extra feeling, such as "hello" -> "heeellooo", "hi" -> "hiiii".  In these strings like "heeellooo", we have groups of adjacent letters that are all the same:  "h", "eee", "ll", "ooo".
  *
@@ -35,7 +35,8 @@ import java.util.List;
  * S and all words in words consist only of lowercase letters
  *
  * Approach #1: Run Length Encoding [Accepted]
- * For some word, write the head character of every group, and the count of that group. For example, for "abbcccddddaaaaa", we'll write the "key" of "abcda", and the "count" [1,2,3,4,5].
+ * For some word, write the head character of every group, and the count of that group. For example, for "abbcccddddaaaaa",
+ * we'll write the "key" of "abcda", and the "count" [1,2,3,4,5].
  * Let's see if a word is stretchy. Evidently, it needs to have the same key as S.
  * Now, let's say we have individual counts c1 = S.count[i] and c2 = word.count[i].
  * If c1 < c2, then we can't make the ith group of word equal to the ith word of S by adding characters.

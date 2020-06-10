@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3055/
+ * https://leetcode.com/problems/missing-ranges
  *
  * Given a sorted integer array nums, where the range of elements are in the inclusive range [lower, upper], return its missing ranges.
  *

@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.interview.googledeck.arraynstring;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3050/
+ * https://leetcode.com/problems/next-permutation
  *
  * Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
  * If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
