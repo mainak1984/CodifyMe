@@ -4,7 +4,8 @@ package edu.codifyme.leetcode.interview.googledeck.arraynstring;
  * MEDIUM:
  * https://leetcode.com/problems/multiply-strings
  *
- * Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+ * Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also
+ * represented as a string.
  *
  * Example 1:
  *
@@ -22,7 +23,8 @@ package edu.codifyme.leetcode.interview.googledeck.arraynstring;
  * You must not use any built-in BigInteger library or convert the inputs to integer directly.
  *
  * Approach 1:
- * Start from right to left, perform multiplication on every pair of digits, and add them together. Let's draw the process! From the following draft, we can immediately conclude:
+ * Start from right to left, perform multiplication on every pair of digits, and add them together. Let's draw the
+ * process! From the following draft, we can immediately conclude:
  *  `num1[i] * num2[j]` will be placed at indices `[i + j`, `i + j + 1]`
  */
 public class MultiplyString {

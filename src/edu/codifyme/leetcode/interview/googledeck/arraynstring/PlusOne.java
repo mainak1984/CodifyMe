@@ -10,7 +10,8 @@ import java.util.List;
  * Included in Mock set
  *
  * Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
- * The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
+ * The digits are stored such that the most significant digit is at the head of the list, and each element in the array
+ * contain a single digit.
  * You may assume the integer does not contain any leading zero, except the number 0 itself.
  *
  * Example 1:
@@ -27,7 +28,8 @@ import java.util.List;
  * Move along the input array starting from the end of array.
  * Set all the nines at the end of array to zero.
  * If we meet a not-nine digit, we would increase it by one. The job is done - return digits.
- * We're here because all the digits were equal to nine. Now they have all been set to zero. We then append the digit 1 in front of the other digits and return the result.
+ * We're here because all the digits were equal to nine. Now they have all been set to zero. We then append the digit
+ * 1 in front of the other digits and return the result.
  */
 public class PlusOne {
     public int[] plusOne(int[] digits) {
