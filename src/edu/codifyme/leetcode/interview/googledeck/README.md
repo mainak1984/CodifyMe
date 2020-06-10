@@ -25,54 +25,49 @@
 * [Minimum Cost to Hire K Workers](arraynstring/MinCostToHireKWorkers.java) - **(HARD)**
 * [Rotate Image](arraynstring/RotateImage.java) - **(MEDIUM)** - Rotate/Transpose
 
-#### _**Linked List:**_
+### _**Linked List:**_
 * [Remove Nth Node From End of List](list/RemoveNthNodeFromEnd.java) - **(MEDIUM)** - 2 pointer at n distance
 * [Copy List with Random Pointer](list/CopyListwithRandomPointer.java) - **(MEDIUM)**
 
-#### _**Trees and Graphs:**_
-Binary Tree Maximum Path Sum - Longest path
-Word Ladder - graph construction
-Course Schedule II - Topological sort
-Count Complete Tree Nodes - Complete binary tree traversal
-Longest Increasing Path in a Matrix - Memoization
-Decode String
-Evaluate Division - equation graph formation
-Robot Room Cleaner - Handling stateful DFS
-Most Stones Removed with Same Row or Column - Union Find
+### _**Trees and Graphs:**_
+* [Binary Tree Maximum Path Sum](treesngrapsh/BinaryTreeMaxPathSum.java) - **(HARD)** - Longest path
+* [Word Ladder](treesngrapsh/WordLadder.java) - **(MEDIUM)** - graph construction with Adj. List
+* Course Schedule II - **(MEDIUM)** - Topological sort
+* Count Complete Tree Nodes - **(MEDIUM)** - Complete binary tree traversal
+* Longest Increasing Path in a Matrix - **(MEDIUM)** - Memoization
+* Decode String - **(MEDIUM)**
+* Evaluate Division - **(MEDIUM)** - equation graph formation
+* Robot Room Cleaner - **(MEDIUM)** - Handling stateful DFS
+* Most Stones Removed with Same Row or Column - **(MEDIUM)** - Union Find
 
+### _**Recursion:**_
+* Word Squares - **(MEDIUM)**
+* Word Search II - **(MEDIUM)** - Trie, Pruning
+* Android Unlock Patterns - **(MEDIUM)**
+* Generate Parentheses - **(MEDIUM)**
 
-Recursion:
-Word Squares
-Word Search II - Trie, Pruning
-Android Unlock Patterns
-Generate Parentheses
+### _**Sorting and Searching:**_
+* Median of Two Sorted Arrays - **(MEDIUM)**
+* Find First and Last Position of Element in Sorted Array - **(MEDIUM)**
+* Insert Interval - **(MEDIUM)**
+* Count of Smaller Numbers After Self - **(MEDIUM)**
 
+### _**Dynamic Programming:**_
+* Longest Palindromic Substring - **(MEDIUM)**
+* Best Time to Buy and Sell Stock - **(MEDIUM)**
+* Maximum Product Subarray - **(MEDIUM)**
+* Split Array Largest Sum - **(MEDIUM)**
 
-Sorting and Searching:
-Median of Two Sorted Arrays
-Find First and Last Position of Element in Sorted Array
-Insert Interval
-Count of Smaller Numbers After Self
+### _**Design:**_
+* Min Stack - **(MEDIUM)**
+* Serialize and Deserialize Binary Tree - **(MEDIUM)**
+* Insert Delete GetRandom O(1) - **(MEDIUM)**
+* Design Search Autocomplete System - **(MEDIUM)**
 
-
-Dynamic Programming:
-Longest Palindromic Substring
-Best Time to Buy and Sell Stock
-Maximum Product Subarray
-Split Array Largest Sum
-
-
-Design:
-Min Stack
-Serialize and Deserialize Binary Tree
-Insert Delete GetRandom O(1)
-Design Search Autocomplete System
-
-
-Others:
-Candy
-Range Sum Query 2D - Mutable - Binary Index Tree
-My Calendar II
-Swap Adjacent in LR String
-Guess the Word
-Minimum Area Rectangle
+### _**Others:**_
+* Candy - **(MEDIUM)**
+* Range Sum Query 2D - Mutable - Binary Index Tree - **(MEDIUM)**
+* My Calendar II - **(MEDIUM)**
+* Swap Adjacent in LR String - **(MEDIUM)**
+* Guess the Word - **(MEDIUM)**
+* Minimum Area Rectangle - **(MEDIUM)**
