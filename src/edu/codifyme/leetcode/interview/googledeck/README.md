@@ -52,10 +52,10 @@
 * [Count of Smaller Numbers After Self](sortnsearch/CountSmallerNumAfterSelf.java) - **(HARD)**
 
 ### _**Dynamic Programming:**_
-* Longest Palindromic Substring - **(MEDIUM)**
-* Best Time to Buy and Sell Stock - **(MEDIUM)**
-* Maximum Product Subarray - **(MEDIUM)**
-* Split Array Largest Sum - **(MEDIUM)**
+* [Longest Palindromic Substring](dp/LongestPalindromicSubstring.java) - **(MEDIUM)**
+* [Best Time to Buy and Sell Stock](dp/BestTimeToBuyAndSellStock.java) - **(EASY)**
+* [Maximum Product Subarray](dp/MaximumProductSubarray.java) - **(MEDIUM)**
+* [Split Array Largest Sum](dp/SplitArrayLargestSum.java) - **(HARD)**
 
 ### _**Design:**_
 * Min Stack - **(MEDIUM)**
