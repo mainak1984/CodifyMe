@@ -1,43 +1,44 @@
-##### **Quick Review List**
+# **Quick Review List**
 
-###### _**Intro:**_
-1. [Odd Even Jump (HARD)](intro/OddEvenJump.java)
-2. [Fruit Into Baskets (MEDIUM)](intro/OddEvenJump.java)
+### _**Intro:**_
+* [Odd Even Jump](intro/OddEvenJump.java) - **(HARD)**
+* [Fruit Into Baskets](intro/OddEvenJump.java) - **(MEDIUM)**
 
-###### _**Array & String:**_
-**Two pointer**
+### _**Array & String:**_
+#### **Two pointer**
 
-3. [Minimum Window Substring (HARD) - Template attached](arraynstring/MinimumWindowSubstring.java)
+* [Minimum Window Substring](arraynstring/MinimumWindowSubstring.java) - **(HARD)** - Template attached
 
-4. [Longest Substring with N Distinct Characters (MEDIUM) - Template attached](arraynstring/LongestSubstrWithNDistinctChars.java)
+* [Longest Substring with N Distinct Characters](arraynstring
+/LongestSubstrWithNDistinctChars.java) - **(MEDIUM)** - Template attached
 
-5. [Longest Substring without repeating (MEDIUM)](arraynstring/LongestSubstringWithourRepeat.java)
+* [Longest Substring without repeating](arraynstring/LongestSubstringWithourRepeat.java) - **(MEDIUM)**
 
-6. [Container With Most Water (MEDIUM)](arraynstring/ContainerWithMostWater.java)
+* [Container With Most Water](arraynstring/ContainerWithMostWater.java) - **(MEDIUM)**
 
-7. [3 Sum (MEDIUM)](arraynstring/ThreeSum.java)
+* [3 Sum](arraynstring/ThreeSum.java) - **(MEDIUM)**
 
-**Top K/Quickselect**
+#### **Top K/Quickselect**
 
-8. [Kth Largest Element in an Array (MEDIUM)](arraynstring/KthLargestInArray.java)
+* [Kth Largest Element in an Array](arraynstring/KthLargestInArray.java) - **(MEDIUM)**
 
-9. [K Closest Points to Origin (MEDIUM)](arraynstring/KClosestPointsToOrigin.java)
+* [K Closest Points to Origin](arraynstring/KClosestPointsToOrigin.java) - **(MEDIUM)**
 
-10. [Merge k Sorted Lists (HARD)](arraynstring/MergeKLists.java)
+* [Merge k Sorted Lists](arraynstring/MergeKLists.java) - **(HARD)**
 
-**Mixed**
+#### **Mixed**
 
-11. [Next Permutation (MEDIUM)](arraynstring/NextPermutation.java)
+* [Next Permutation](arraynstring/NextPermutation.java) - **(MEDIUM)**
 
-12. [Rotate Image - Explains Run Length Encoding (MEDIUM)](arraynstring/RotateImage.java)
+* [Rotate Image - Explains Run Length Encoding](arraynstring/RotateImage.java) - **(MEDIUM)**
 
-13. [Meeting Rooms II (MEDIUM)](arraynstring/MeetingRoomsII.java)
+* [Meeting Rooms II](arraynstring/MeetingRoomsII.java) - **(MEDIUM)**
 
-14. Minimum Cost to Hire K Workers
+* [Minimum Cost to Hire K Workers](arraynstring/MinCostToHireKWorkers.java) - **(HARD)**
 
-15. Rotate Image - Rotate/Transpose
+* [Rotate Image](arraynstring/RotateImage.java) - **(MEDIUM)** - Rotate/Transpose
 
-Linked List:
+#### _**Linked List:**_
 Remove Nth Node From End of List - 2 pointer at n distance
 
 
