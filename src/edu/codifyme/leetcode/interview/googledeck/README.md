@@ -6,16 +6,11 @@
 
 ### _**Array & String:**_
 #### **Two pointer**
-
 * [Minimum Window Substring](arraynstring/MinimumWindowSubstring.java) - **(HARD)** - Template attached
-
-* [Longest Substring with N Distinct Characters](arraynstring
-/LongestSubstrWithNDistinctChars.java) - **(MEDIUM)** - Template attached
-
+* [Longest Substring with N Distinct Characters](arraynstring/LongestSubstrWithNDistinctChars.java) - **(MEDIUM
+)** - Template attached
 * [Longest Substring without repeating](arraynstring/LongestSubstringWithourRepeat.java) - **(MEDIUM)**
-
 * [Container With Most Water](arraynstring/ContainerWithMostWater.java) - **(MEDIUM)**
-
 * [3 Sum](arraynstring/ThreeSum.java) - **(MEDIUM)**
 
 #### **Top K/Quickselect**
