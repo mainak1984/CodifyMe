@@ -2,11 +2,14 @@ package edu.codifyme.leetcode.interview.googledeck.treesngrapsh;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/61/trees-and-graphs/3077/
+ * https://leetcode.com/problems/flip-equivalent-binary-trees
  *
- * For a binary tree T, we can define a flip operation as follows: choose any node, and swap the left and right child subtrees.
- * A binary tree X is flip equivalent to a binary tree Y if and only if we can make X equal to Y after some number of flip operations.
- * Write a function that determines whether two binary trees are flip equivalent.  The trees are given by root nodes root1 and root2.
+ * For a binary tree T, we can define a flip operation as follows: choose any node, and swap the left and right child
+ * subtrees.
+ * A binary tree X is flip equivalent to a binary tree Y if and only if we can make X equal to Y after some number of
+ * flip operations.
+ * Write a function that determines whether two binary trees are flip equivalent.  The trees are given by root nodes
+ * root1 and root2.
  *
  * Example 1:
  * Input: root1 = [1,2,3,4,5,6,null,null,null,7,8], root2 = [1,3,2,null,6,4,5,null,null,null,null,8,7]
@@ -27,7 +30,8 @@ public class FlipEquivalentBinaryTrees {
         }
 
         if ( root1.val == root2.val ) {
-            return (flipEquiv(root1.left, root2.right) || flipEquiv(root1.left, root2.left) ) && (flipEquiv(root1.right, root2.left) || flipEquiv(root1.right, root2.right)  );
+            return (flipEquiv(root1.left, root2.right) || flipEquiv(root1.left, root2.left) ) &&
+                    (flipEquiv(root1.right, root2.left) || flipEquiv(root1.right, root2.right)  );
         } else {
             return false;
         }

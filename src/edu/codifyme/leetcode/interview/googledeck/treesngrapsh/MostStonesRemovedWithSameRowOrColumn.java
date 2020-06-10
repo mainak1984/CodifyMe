@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/61/trees-and-graphs/3076/
+ * https://leetcode.com/problems/most-stones-removed-with-same-row-or-column
  *
  * On a 2D plane, we place stones at some integer coordinate points.  Each coordinate point may have at most one stone.
  * Now, a move consists of removing a stone that shares a column or row with another stone on the grid.

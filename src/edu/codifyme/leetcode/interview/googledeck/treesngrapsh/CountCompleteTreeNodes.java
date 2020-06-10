@@ -2,13 +2,14 @@ package edu.codifyme.leetcode.interview.googledeck.treesngrapsh;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/61/trees-and-graphs/3071/
+ * https://leetcode.com/problems/count-complete-tree-nodes
  *
  * Given a complete binary tree, count the number of nodes.
  *
  * Note:
  * Definition of a complete binary tree from Wikipedia:
- * In a complete binary tree every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2h nodes inclusive at the last level h.
+ * In a complete binary tree every level, except possibly the last, is completely filled, and all nodes in the last
+ * level are as far left as possible. It can have between 1 and 2h nodes inclusive at the last level h.
  *
  * Example:
  * Input:

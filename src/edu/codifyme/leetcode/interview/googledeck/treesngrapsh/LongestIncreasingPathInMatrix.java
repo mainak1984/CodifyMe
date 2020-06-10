@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * HARD:
- * https://leetcode.com/explore/interview/card/google/61/trees-and-graphs/3072/
+ * https://leetcode.com/problems/longest-increasing-path-in-a-matrix
  *
  * Given an integer matrix, find the length of the longest increasing path.
  * From each cell, you can either move to four directions: left, right, up or down. You may NOT move diagonally or move

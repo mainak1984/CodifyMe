@@ -12,15 +12,13 @@
 * [Longest Substring without repeating](arraynstring/LongestSubstringWithourRepeat.java) - **(MEDIUM)**
 * [Container With Most Water](arraynstring/ContainerWithMostWater.java) - **(MEDIUM)**
 * [3 Sum](arraynstring/ThreeSum.java) - **(MEDIUM)**
-
 #### **Top K/Quickselect**
 * [Kth Largest Element in an Array](arraynstring/KthLargestInArray.java) - **(MEDIUM)**
 * [K Closest Points to Origin](arraynstring/KClosestPointsToOrigin.java) - **(MEDIUM)**
 * [Merge k Sorted Lists](arraynstring/MergeKLists.java) - **(HARD)**
-
 #### **Mixed**
 * [Next Permutation](arraynstring/NextPermutation.java) - **(MEDIUM)**
-* [Rotate Image - Explains Run Length Encoding](arraynstring/RotateImage.java) - **(MEDIUM)**
+* [Expressive Words](arraynstring/ExpressiveWords.java) - **(MEDIUM)** - Explains Run Length Encoding
 * [Meeting Rooms II](arraynstring/MeetingRoomsII.java) - **(MEDIUM)**
 * [Minimum Cost to Hire K Workers](arraynstring/MinCostToHireKWorkers.java) - **(HARD)**
 * [Rotate Image](arraynstring/RotateImage.java) - **(MEDIUM)** - Rotate/Transpose
@@ -32,13 +30,13 @@
 ### _**Trees and Graphs:**_
 * [Binary Tree Maximum Path Sum](treesngrapsh/BinaryTreeMaxPathSum.java) - **(HARD)** - Longest path
 * [Word Ladder](treesngrapsh/WordLadder.java) - **(MEDIUM)** - graph construction with Adj. List
-* Course Schedule II - **(MEDIUM)** - Topological sort
-* Count Complete Tree Nodes - **(MEDIUM)** - Complete binary tree traversal
-* Longest Increasing Path in a Matrix - **(MEDIUM)** - Memoization
-* Decode String - **(MEDIUM)**
-* Evaluate Division - **(MEDIUM)** - equation graph formation
-* Robot Room Cleaner - **(MEDIUM)** - Handling stateful DFS
-* Most Stones Removed with Same Row or Column - **(MEDIUM)** - Union Find
+* [Course Schedule II](treesngrapsh/CourseScheduleII.java) - **(MEDIUM)** - Topological sort
+* [Count Complete Tree Nodes](treesngrapsh/CountCompleteTreeNodes.java) - **(MEDIUM)** - Complete binary tree traversal
+* [Longest Increasing Path in a Matrix](treesngrapsh/LongestIncreasingPathInMatrix.java) - **(HARD)** - Memoization
+* [Decode String](treesngrapsh/DecodeString.java) - **(MEDIUM)**
+* [Evaluate Division](treesngrapsh/EvaluateDivision.java) - **(MEDIUM)** - equation graph formation
+* [Robot Room Cleaner](treesngrapsh/RobotRoomCleaner.java) - **(HARD)** - Handling stateful DFS
+* [Most Stones Removed with Same Row or Column](treesngrapsh/MostStonesRemovedWithSameRowOrColumn.java) - **(MEDIUM)** - Union Find
 
 ### _**Recursion:**_
 * Word Squares - **(MEDIUM)**

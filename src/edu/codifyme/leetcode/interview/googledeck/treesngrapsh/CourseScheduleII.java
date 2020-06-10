@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/61/trees-and-graphs/3070/
+ * https://leetcode.com/problems/course-schedule-ii
  *
  * There are a total of n courses you have to take, labeled from 0 to n-1.
  * Some courses may have prerequisites, for example to take course 0 you have to first take course 1, which is expressed
@@ -30,7 +30,8 @@ import java.util.Map;
  *              courses 1 and 2. Both courses 1 and 2 should be taken after you finished course 0.
  *              So one correct course order is [0,1,2,3]. Another correct ordering is [0,2,1,3] .
  * Note:
- * The input prerequisites is a graph represented by a list of edges, not adjacency matrices. Read more about how a graph is represented.
+ * The input prerequisites is a graph represented by a list of edges, not adjacency matrices. Read more about how a
+ * graph is represented.
  * You may assume that there are no duplicate edges in the input prerequisites.
  *
  * Approach:

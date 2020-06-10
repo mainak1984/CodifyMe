@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**
  * HARD:
- * https://leetcode.com/explore/interview/card/google/61/trees-and-graphs/3075/
+ * https://leetcode.com/problems/cracking-the-safe
  *
  * There is a box protected by a password. The password is a sequence of n digits where each digit can be one of the
  * first k digits 0, 1, ..., k-1.
