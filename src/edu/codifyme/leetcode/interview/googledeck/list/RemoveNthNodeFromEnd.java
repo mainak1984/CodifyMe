@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.interview.googledeck.list;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/60/linked-list-5/3064/
+ * https://leetcode.com/problems/remove-nth-node-from-end-of-list
  *
  * Given a linked list, remove the n-th node from the end of list and return its head.
  *

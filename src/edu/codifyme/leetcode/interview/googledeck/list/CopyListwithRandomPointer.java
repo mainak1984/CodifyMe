@@ -5,13 +5,16 @@ import java.util.Map;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/60/linked-list-5/3066/
+ * https://leetcode.com/problems/copy-list-with-random-pointer
  *
- * A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
+ * A linked list is given such that each node contains an additional random pointer which could point to any node in the
+ * list or null.
  * Return a deep copy of the list.
- * The Linked List is represented in the input/output as a list of n nodes. Each node is represented as a pair of [val, random_index] where:
+ * The Linked List is represented in the input/output as a list of n nodes. Each node is represented as a pair of [val,
+ * random_index] where:
  * val: an integer representing Node.val
- * random_index: the index of the node (range from 0 to n-1) where random pointer points to, or null if it does not point to any node.
+ * random_index: the index of the node (range from 0 to n-1) where random pointer points to, or null if it does not
+ * point to any node.
  *
  * Example 1:
  * Input: head = [[7,null],[13,0],[11,4],[10,2],[1,0]]

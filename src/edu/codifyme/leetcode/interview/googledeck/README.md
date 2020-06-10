@@ -14,30 +14,22 @@
 * [3 Sum](arraynstring/ThreeSum.java) - **(MEDIUM)**
 
 #### **Top K/Quickselect**
-
 * [Kth Largest Element in an Array](arraynstring/KthLargestInArray.java) - **(MEDIUM)**
-
 * [K Closest Points to Origin](arraynstring/KClosestPointsToOrigin.java) - **(MEDIUM)**
-
 * [Merge k Sorted Lists](arraynstring/MergeKLists.java) - **(HARD)**
 
 #### **Mixed**
-
 * [Next Permutation](arraynstring/NextPermutation.java) - **(MEDIUM)**
-
 * [Rotate Image - Explains Run Length Encoding](arraynstring/RotateImage.java) - **(MEDIUM)**
-
 * [Meeting Rooms II](arraynstring/MeetingRoomsII.java) - **(MEDIUM)**
-
 * [Minimum Cost to Hire K Workers](arraynstring/MinCostToHireKWorkers.java) - **(HARD)**
-
 * [Rotate Image](arraynstring/RotateImage.java) - **(MEDIUM)** - Rotate/Transpose
 
 #### _**Linked List:**_
-Remove Nth Node From End of List - 2 pointer at n distance
+* [Remove Nth Node From End of List](list/RemoveNthNodeFromEnd.java) - **(MEDIUM)** - 2 pointer at n distance
+* [Copy List with Random Pointer](list/CopyListwithRandomPointer.java) - **(MEDIUM)**
 
-
-Trees and Graphs:
+#### _**Trees and Graphs:**_
 Binary Tree Maximum Path Sum - Longest path
 Word Ladder - graph construction
 Course Schedule II - Topological sort
