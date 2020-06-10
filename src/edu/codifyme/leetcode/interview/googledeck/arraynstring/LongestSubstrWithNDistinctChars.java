@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3054/
+ * https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters
  *
  * Given a string s , find the length of the longest substring t  that contains at most 2 distinct characters.
  *
@@ -26,6 +26,9 @@ import java.util.Map;
  * The idea is to set both pointers in the position 0 and then move right pointer to the right while the window contains
  * not more than two distinct characters. If at some point we've got 3 distinct characters, let's move left pointer to
  * keep not more than 2 distinct characters in the window.
+ *
+ * TEMPLATE:
+ * https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/discuss/49708/Sliding-Window-algorithm-template-to-solve-all-the-Leetcode-substring-search-problem.
  */
 public class LongestSubstrWithNDistinctChars {
     public int lengthOfLongestSubstringTwoDistinct(String s) {

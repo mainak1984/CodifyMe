@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/59/array-and-strings/361/
+ * https://leetcode.com/problems/kth-largest-element-in-an-array
  *
  * Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element.
  *

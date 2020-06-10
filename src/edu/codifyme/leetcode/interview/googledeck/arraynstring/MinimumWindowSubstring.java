@@ -4,9 +4,10 @@ import java.util.HashMap;
 
 /**
  * HARD:
- * https://leetcode.com/explore/interview/card/google/59/array-and-strings/345/
+ * https://leetcode.com/problems/minimum-window-substring
  *
- * Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
+ * Given a string S and a string T, find the minimum window in S which will contain all the characters in T in
+ * complexity O(n).
  *
  * Example:
  *
@@ -19,8 +20,10 @@ import java.util.HashMap;
  *
  * Algorithm :
  * We start with two pointers, leftleft and rightright initially pointing to the first element of the string SS.
- * We use the rightright pointer to expand the window until we get a desirable window i.e. a window that contains all of the characters of TT.
- * Once we have a window with all the characters, we can move the left pointer ahead one by one. If the window is still a desirable one we keep on updating the minimum window size.
+ * We use the rightright pointer to expand the window until we get a desirable window i.e. a window that contains all of
+ * the characters of TT.
+ * Once we have a window with all the characters, we can move the left pointer ahead one by one. If the window is still
+ * a desirable one we keep on updating the minimum window size.
  * If the window is not desirable any more, we repeat step \; 2step2 onwards.
  */
 public class MinimumWindowSubstring {
@@ -73,4 +76,31 @@ public class MinimumWindowSubstring {
 
         return (minLength == Integer.MAX_VALUE)? "": s.substring(minStart, minStart+minLength);
     }
+
+    // TEMPLATE for any substring
+//    int findSubstring(string s){
+//        vector<int> map(128,0);
+//        int counter; // check whether the substring is valid
+//        int begin=0, end=0; //two pointers, one point to tail and one  head
+//        int d; //the length of substring
+//
+//        for() { /* initialize the hash map here */ }
+//
+//        while(end<s.size()){
+//
+//            if(map[s[end++]]-- ?){  /* modify counter here */ }
+//
+//            while(/* counter condition */){
+//
+//                /* update d here if finding minimum*/
+//
+//                //increase begin to make it invalid/valid again
+//
+//                if(map[s[begin++]]++ ?){ /*modify counter here*/ }
+//            }
+//
+//            /* update d here if finding maximum*/
+//        }
+//        return d;
+//    }
 }

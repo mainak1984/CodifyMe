@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/67/sql-2/3046/
+ * https://leetcode.com/problems/fruit-into-baskets
  *
  * In a row of trees, the i-th tree produces fruit with type tree[i].
  *
@@ -12,9 +12,11 @@ import java.util.HashMap;
  *
  * Add one piece of fruit from this tree to your baskets.  If you cannot, stop.
  * Move to the next tree to the right of the current tree.  If there is no tree to the right, stop.
- * Note that you do not have any choice after the initial choice of starting tree: you must perform step 1, then step 2, then back to step 1, then step 2, and so on until you stop.
+ * Note that you do not have any choice after the initial choice of starting tree: you must perform step 1, then step 2,
+ * then back to step 1, then step 2, and so on until you stop.
  *
- * You have two baskets, and each basket can carry any quantity of fruit, but you want each basket to only carry one type of fruit each.
+ * You have two baskets, and each basket can carry any quantity of fruit, but you want each basket to only carry one
+ * type of fruit each.
  *
  * What is the total amount of fruit you can collect with this procedure?
  *
@@ -53,19 +55,27 @@ import java.util.HashMap;
  *
  * Equivalently, we want the longest subarray with at most two "types" (values of tree[i]).
  * Instead of considering each element individually, we can consider blocks of adjacent elements of the same type.
- * For example, instead of tree = [1, 1, 1, 1, 2, 2, 3, 3, 3], we can say this is blocks = [(1, weight = 4), (2, weight = 2), (3, weight = 3)].
- * Now say we brute forced, scanning from left to right. We'll have something like blocks = [1, _2_, 1, 2, 1, 2, _1_, 3, ...] (with various weights).
- * The key insight is that when we encounter a 3, we do not need to start from the second element 2 (marked _2_ for convenience); we can start from the first element (_1_) before the 3. This is because if we started two or more elements before, the sequence must have types 1 and 2, and that sequence is going to end at the 3, and thus be shorter than anything we've already considered.
+ * For example, instead of tree = [1, 1, 1, 1, 2, 2, 3, 3, 3], we can say this is blocks = [(1, weight = 4),
+ * (2, weight = 2), (3, weight = 3)].
+ * Now say we brute forced, scanning from left to right. We'll have something like blocks = [1, _2_, 1, 2, 1, 2, _1_, 3, ...]
+ * (with various weights).
+ * The key insight is that when we encounter a 3, we do not need to start from the second element 2 (marked _2_ for convenience);
+ * we can start from the first element (_1_) before the 3. This is because if we started two or more elements before,
+ * the sequence must have types 1 and 2, and that sequence is going to end at the 3, and thus be shorter than anything
+ * we've already considered.
  * Since every starting point (that is the left-most index of a block) was considered, this solution is correct.
  *
  * Approach 2: Sliding Window
  *
- * As in Approach 1, we want the longest subarray with at most two different "types" (values of tree[i]). Call these subarrays valid.
- * Say we consider all valid subarrays that end at index j. There must be one with the smallest possible starting index i: lets say opt(j) = i.
+ * As in Approach 1, we want the longest subarray with at most two different "types" (values of tree[i]). Call these
+ * subarrays valid.
+ * Say we consider all valid subarrays that end at index j. There must be one with the smallest possible starting index i:
+ * lets say opt(j) = i.
  * Now the key idea is that opt(j) is a monotone increasing function. This is because any subarray of a valid subarray is valid.
  * Algorithm
  * Let's perform a sliding window, keeping the loop invariant that i will be the smallest index for which [i, j] is a valid subarray.
- * We'll maintain count, the count of all the elements in the subarray. This allows us to quickly query whether there are 3 types in the subarray or not.
+ * We'll maintain count, the count of all the elements in the subarray. This allows us to quickly query whether there are
+ * 3 types in the subarray or not.
  */
 public class FruitIntoBaskets {
     // APPROACH: 2
