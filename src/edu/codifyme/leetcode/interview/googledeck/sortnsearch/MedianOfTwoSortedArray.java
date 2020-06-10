@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.interview.googledeck.sortnsearch;
 
 /**
  * HARD:
- * https://leetcode.com/explore/interview/card/google/63/sorting-and-searching-4/3080/
+ * https://leetcode.com/problems/median-of-two-sorted-arrays
  *
  * There are two sorted arrays nums1 and nums2 of size m and n respectively.
  * Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
@@ -18,7 +18,8 @@ package edu.codifyme.leetcode.interview.googledeck.sortnsearch;
  * nums2 = [3, 4]
  * The median is (2 + 3)/2 = 2.5
  *
- * The key point of this problem is to ignore half part of A and B each step recursively by comparing the median of remaining A and B:
+ * The key point of this problem is to ignore half part of A and B each step recursively by comparing the median of
+ * remaining A and B:
  * if (aMid < bMid) Keep [aRight + bLeft]
  * else Keep [bRight + aLeft]
  */

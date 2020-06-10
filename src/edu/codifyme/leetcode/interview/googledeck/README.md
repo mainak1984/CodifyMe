@@ -45,10 +45,11 @@
 * [Generate Parentheses](recursion/GenerateParenthesis.java) - **(MEDIUM)**
 
 ### _**Sorting and Searching:**_
-* Median of Two Sorted Arrays - **(MEDIUM)**
-* Find First and Last Position of Element in Sorted Array - **(MEDIUM)**
-* Insert Interval - **(MEDIUM)**
-* Count of Smaller Numbers After Self - **(MEDIUM)**
+* [Median of Two Sorted Arrays](sortnsearch/MedianOfTwoSortedArray.java) - **(HARD)**
+* [Find First and Last Position of Element in Sorted Array](sortnsearch/FirstAndLastOfSortedArray.java) - **(MEDIUM)**
+* [Merge Intervals](sortnsearch/MergeIntervals.java) - **(MEDIUM)**
+* [Insert Interval](sortnsearch/InsertInterval.java) - **(HARD)**
+* [Count of Smaller Numbers After Self](sortnsearch/CountSmallerNumAfterSelf.java) - **(HARD)**
 
 ### _**Dynamic Programming:**_
 * Longest Palindromic Substring - **(MEDIUM)**

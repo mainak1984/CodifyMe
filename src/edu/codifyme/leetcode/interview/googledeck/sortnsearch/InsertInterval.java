@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/63/sorting-and-searching-4/445/
+ * https://leetcode.com/problems/insert-interval
  *
  * Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
  * You may assume that the intervals were initially sorted according to their start times.
@@ -78,7 +78,8 @@ public class InsertInterval {
 //         int currentIndex = startId;
 
 //         for (int loop = startId > 0? startId-1: 0; (loop <= endId + 1) && (loop < intervals.length); loop++) {
-//             System.out.println("Checking "+Arrays.toString(intervals[loop])+" with "+Arrays.toString(listInterval.get(startId)));
+//             System.out.println("Checking "+Arrays.toString(intervals[loop])+" with
+//                              "+Arrays.toString(listInterval.get(startId)));
 //             if ( intervals[loop][0] <= currentEnd ) {
 //                 currentStart = Math
 //                 currentEnd = Math.max(currentEnd, intervals[loop][1]);

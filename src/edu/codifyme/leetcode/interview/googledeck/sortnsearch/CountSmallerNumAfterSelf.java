@@ -5,9 +5,10 @@ import java.util.List;
 
 /**
  * HARD:
- * https://leetcode.com/explore/interview/card/google/63/sorting-and-searching-4/3083/
+ * https://leetcode.com/problems/count-of-smaller-numbers-after-self
  *
- * You are given an integer array nums and you have to return a new counts array. The counts array has the property where counts[i] is the number of smaller elements to the right of nums[i].
+ * You are given an integer array nums and you have to return a new counts array. The counts array has the property
+ * where counts[i] is the number of smaller elements to the right of nums[i].
  *
  * Example:
  *
