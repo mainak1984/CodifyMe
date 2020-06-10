@@ -39,10 +39,10 @@
 * [Most Stones Removed with Same Row or Column](treesngrapsh/MostStonesRemovedWithSameRowOrColumn.java) - **(MEDIUM)** - Union Find
 
 ### _**Recursion:**_
-* Word Squares - **(MEDIUM)**
-* Word Search II - **(MEDIUM)** - Trie, Pruning
-* Android Unlock Patterns - **(MEDIUM)**
-* Generate Parentheses - **(MEDIUM)**
+* [Word Squares](recursion/WordSquares.java) - **(MEDIUM)**
+* [Word Search II](recursion/WordSearchII.java) - **(MEDIUM)** - Trie, Pruning
+* [Android Unlock Patterns](recursion/AndroidUnlockPatterns.java) - **(MEDIUM)**
+* [Generate Parentheses](recursion/GenerateParenthesis.java) - **(MEDIUM)**
 
 ### _**Sorting and Searching:**_
 * Median of Two Sorted Arrays - **(MEDIUM)**
