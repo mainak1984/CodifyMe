@@ -58,10 +58,10 @@
 * [Split Array Largest Sum](dp/SplitArrayLargestSum.java) - **(HARD)**
 
 ### _**Design:**_
-* Min Stack - **(MEDIUM)**
-* Serialize and Deserialize Binary Tree - **(MEDIUM)**
-* Insert Delete GetRandom O(1) - **(MEDIUM)**
-* Design Search Autocomplete System - **(MEDIUM)**
+* [Min Stack](design/MinStack.java) - **(EASY)**
+* [Serialize and Deserialize Binary Tree](design/SerializeDeserializeBinaryTree.java) - **(HARD)**
+* [Insert Delete GetRandom O(1)](design/InsertDeleteGetRandomInConstantTIme.java) - **(MEDIUM)**
+* [Design Search Autocomplete System](design/DesignSearchAutocompleteSystem.java) - **(HARD)**
 
 ### _**Others:**_
 * Candy - **(MEDIUM)**

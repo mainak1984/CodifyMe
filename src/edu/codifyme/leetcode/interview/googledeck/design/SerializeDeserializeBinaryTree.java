@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.interview.googledeck.design;
 
 /**
  * HARD:
- * https://leetcode.com/explore/interview/card/google/65/design-4/3092/
+ * https://leetcode.com/problems/serialize-and-deserialize-binary-tree
  *
  * Serialization is the process of converting a data structure or object into a sequence of bits so that it can be
  * stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the

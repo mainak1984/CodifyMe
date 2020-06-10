@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * EASY:
- * https://leetcode.com/explore/interview/card/google/65/design-4/3093/
+ * https://leetcode.com/problems/logger-rate-limiter
  *
  * Design a logger system that receive stream of messages along with its timestamps, each message should be printed if
  * and only if it is not printed in the last 10 seconds.
@@ -42,7 +42,8 @@ import java.util.Map;
  * We keep the incoming messages in a queue. In addition, to accelerate the check of duplicates, we use a set data
  * structure to index the messages.
  * As one see can from the above example where the number indicates the timestamp of each message, the arrival of the
- * message with the timestamp 18 would invalidate both the messages with the timestamp of 5 and 7 which go beyond the time window of 10 seconds.
+ * message with the timestamp 18 would invalidate both the messages with the timestamp of 5 and 7 which go beyond the
+ * time window of 10 seconds.
  *
  * Algorithm
  * First of all, we use a queue as a sort of sliding window to keep all the printable messages in certain time frame
