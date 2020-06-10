@@ -64,9 +64,12 @@
 * [Design Search Autocomplete System](design/DesignSearchAutocompleteSystem.java) - **(HARD)**
 
 ### _**Others:**_
-* Candy - **(MEDIUM)**
-* Range Sum Query 2D - Mutable - Binary Index Tree - **(MEDIUM)**
-* My Calendar II - **(MEDIUM)**
-* Swap Adjacent in LR String - **(MEDIUM)**
-* Guess the Word - **(MEDIUM)**
-* Minimum Area Rectangle - **(MEDIUM)**
+* [Candy](others/Candy.java) - **(HARD)**
+* [Range Sum Query 2D](others/RangeSumQuery2DMutable.java) - Mutable - Binary Index Tree - **(HARD)**
+* [My Calendar II](others/MyCalendarII.java) - **(MEDIUM)**
+* [Swap Adjacent in LR String](others/SwapAdjacentInLRString.java) - **(MEDIUM)**
+* [Guess the Word](others/GuessTheWord.java) - **(HARD)**
+* [Minimum Area Rectangle](others/MinimumAreaRectangle.java) - **(MEDIUM)**
+
+### _**Mock Set:**_
+* [Minimum Domino Rotations For Equal Row](mockprep/MinimumDominoRotationsForEqualRow.java) - **(MEDIUM)**

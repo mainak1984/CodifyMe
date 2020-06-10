@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.interview.googledeck.others;
 
 /**
  * EASY:
- * https://leetcode.com/explore/interview/card/google/66/others-4/3096/
+ * https://leetcode.com/problems/reverse-integer
  *
  * Given a 32-bit signed integer, reverse digits of an integer.
  *

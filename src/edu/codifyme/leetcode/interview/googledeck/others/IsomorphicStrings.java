@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.interview.googledeck.others;
 
 /**
  * EASY:
- * https://leetcode.com/explore/interview/card/google/66/others-4/3098/
+ * https://leetcode.com/problems/isomorphic-strings
  *
  * Given two strings s and t, determine if they are isomorphic.
  * Two strings are isomorphic if the characters in s can be replaced to get t

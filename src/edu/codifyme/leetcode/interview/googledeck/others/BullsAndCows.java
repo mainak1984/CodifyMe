@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.interview.googledeck.others;
 
 /**
  * EASY:
- * https://leetcode.com/explore/interview/card/google/66/others-4/3100/
+ * https://leetcode.com/problems/bulls-and-cows
  *
  * You are playing the following Bulls and Cows game with your friend: You write down a number and ask your friend to
  * guess what the number is. Each time your friend makes a guess, you provide a hint that indicates how many digits in
@@ -22,7 +22,8 @@ package edu.codifyme.leetcode.interview.googledeck.others;
  * Input: secret = "1123", guess = "0111"
  * Output: "1A1B"
  * Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
- * Note: You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
+ * Note: You may assume that the secret number and your friend's guess only contain digits, and their lengths are always
+ * equal.
  */
 public class BullsAndCows {
     public String getHint(String secret, String guess) {

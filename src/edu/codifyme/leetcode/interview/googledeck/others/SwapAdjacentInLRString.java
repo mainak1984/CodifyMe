@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.interview.googledeck.others;
 
 /**
  * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/66/others-4/3103/
+ * https://leetcode.com/problems/swap-adjacent-in-lr-string
  *
  * In a string composed of 'L', 'R', and 'X' characters, like "RXXLRXRXL", a move consists of either replacing one
  * occurrence of "XL" with "LX", or replacing one occurrence of "RX" with "XR". Given the starting string start and the
@@ -41,7 +41,8 @@ public class SwapAdjacentInLRString {
             }
 
             if ( src < len && dst < len ) {
-                if ( start.charAt(src) != end.charAt(dst) || start.charAt(src) == 'L' && src < dst || start.charAt(src) == 'R' && src > dst ) {
+                if ( start.charAt(src) != end.charAt(dst) || start.charAt(src) == 'L' &&
+                        src < dst || start.charAt(src) == 'R' && src > dst ) {
                     return false;
                 }
             }
