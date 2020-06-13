@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 
 /**
- * MEDIUM:
+ * HARD:
  * https://leetcode.com/problems/string-transforms-into-another-string/
  *
  * Given two strings str1 and str2 of the same length, determine whether you can transform str1 into str2 by doing zero

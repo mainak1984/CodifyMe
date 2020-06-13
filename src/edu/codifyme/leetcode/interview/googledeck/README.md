@@ -78,3 +78,6 @@
 ### _**Top_50:**_
 * [Campus Bikes](ztopfifty/CampusBikes.java) - **(MEDIUM)**
 * [Delete Nodes And Return Forest](ztopfifty/DeleteNodesAndReturnForest.java) - **(MEDIUM)**
+* [String Transformation Into Another String](ztopfifty/StringTransformsIntoAnotherString.java) - **(HARD)**
+* [Confusing Number II](ztopfifty/ConfusingNumberII.java) - **(HARD)**
+
