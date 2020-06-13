@@ -80,4 +80,6 @@
 * [Delete Nodes And Return Forest](ztopfifty/DeleteNodesAndReturnForest.java) - **(MEDIUM)**
 * [String Transformation Into Another String](ztopfifty/StringTransformsIntoAnotherString.java) - **(HARD)**
 * [Confusing Number II](ztopfifty/ConfusingNumberII.java) - **(HARD)**
+* [Shortest Way to Form String](ztopfifty/ShortestWayToFormString.java) - **(MEDIUM)** - provides good idea about
+ string search
 
