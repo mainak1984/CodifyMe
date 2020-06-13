@@ -35,7 +35,7 @@ import java.util.Map;
  * Approach: DFS limit check
  */
 public class ConfusingNumberII {
-    Map<Integer, Integer> map = new HashMap<>() {{
+    Map<Integer, Integer> map = new HashMap<Integer, Integer>() {{
         put(0, 0);
         put(1, 1);
         put(6, 9);
