@@ -72,4 +72,7 @@
 * [Minimum Area Rectangle](others/MinimumAreaRectangle.java) - **(MEDIUM)**
 
 ### _**Mock Set:**_
-* [Minimum Domino Rotations For Equal Row](mockprep/MinimumDominoRotationsForEqualRow.java) - **(MEDIUM)**
+* [Minimum Domino Rotations For Equal Row](ymockprep/MinimumDominoRotationsForEqualRow.java) - **(MEDIUM)**
+
+### _**Top_50:**_
+* [Campus Bikes](ztopfifty/CampusBikes.java) - **(MEDIUM)**
