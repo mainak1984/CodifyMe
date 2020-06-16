@@ -83,4 +83,4 @@
 * [Shortest Way to Form String](ztopfifty/ShortestWayToFormString.java) - **(MEDIUM)** - provides good idea about string search
 * [Validate Stack Sequences](ztopfifty/ValidateStackSequences.java) - **(MEDIUM)**
 * [Optimal Account Balancing](ztopfifty/OptimalAccountBalancing.java) - **(HARD)**
-
+* [Minimum Window Subsequence](ztopfifty/MinimumWindowSubsequence.java) - **(HARD)**
