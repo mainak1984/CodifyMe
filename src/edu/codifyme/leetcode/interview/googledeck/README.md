@@ -84,3 +84,5 @@
 * [Validate Stack Sequences](ztopfifty/ValidateStackSequences.java) - **(MEDIUM)**
 * [Optimal Account Balancing](ztopfifty/OptimalAccountBalancing.java) - **(HARD)**
 * [Minimum Window Subsequence](ztopfifty/MinimumWindowSubsequence.java) - **(HARD)**
+* [Split Array Into Consecutive Subsequences](ztopfifty/SplitArrayintoConsecutiveSubsequences.java) - **(MEDIUM)**
+* [Student Attendance Record II](ztopfifty/StudentAttendanceRecordII.java) - **(HARD)**
