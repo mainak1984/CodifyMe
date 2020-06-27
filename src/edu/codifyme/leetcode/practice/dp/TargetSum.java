@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.common.dp;
+package edu.codifyme.leetcode.practice.dp;
 
 /**
  * MEDIUM:

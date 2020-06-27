@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.common.stack;
+package edu.codifyme.leetcode.practice.stack;
 
 import java.util.Stack;
 
