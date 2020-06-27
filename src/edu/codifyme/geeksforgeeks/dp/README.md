@@ -6,13 +6,13 @@
 > * Initialize 0th Row as 0
 > * Initialize 0th column as 0
 > * DP code section
->>  Loop: i => 1 to Wt.length  
->>      + Loop: j => 1 to sum  
->>          + if ( Wt\[i-1] <= j ) {  
->>              + dp\[i]\[j] = Max(dp\[i-1]\[j], val\[i-1] + dp\[i-1]\[j - Wt\[i -1]);  
->>          + } else {  
->>              + dp\[i]\[j] = dp\[i-1]\[j];  
->>          + }
+>> Loop: i => 1 to Wt.length  
+>> &nbsp;&nbsp;Loop: j => 1 to sum  
+>> &nbsp;&nbsp;&nbsp;&nbsp;if ( Wt\[i-1] <= j ) {  
+>> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dp\[i]\[j] = Max(dp\[i-1]\[j], val\[i-1] + dp\[i-1]\[j - Wt\[i -1]);  
+>> &nbsp;&nbsp;&nbsp;&nbsp;} else {  
+>> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dp\[i]\[j] = dp\[i-1]\[j];  
+>> &nbsp;&nbsp;&nbsp;&nbsp;}
 > * Return dp\[Wt.length]\[sum]
 
 ### Variations:
