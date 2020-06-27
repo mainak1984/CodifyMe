@@ -7,12 +7,12 @@
 > * Initialize 0th column as 0
 > * DP code section
 > *  Loop: i => 1 to Wt.length 
->        Loop: j => 1 to sum
->            if ( Wt\[i-1] <= j ) {
->                dp\[i]\[j] = Max(dp\[i-1]\[j], val\[i-1] + dp\[i-1]\[j - Wt\[i -1]);
->            } else {
->                dp\[i]\[j] = dp\[i-1]\[j];
->            }
+>>        Loop: j => 1 to sum
+>>            if ( Wt\[i-1] <= j ) {
+>>                dp\[i]\[j] = Max(dp\[i-1]\[j], val\[i-1] + dp\[i-1]\[j - Wt\[i -1]);
+>>            } else {
+>>                dp\[i]\[j] = dp\[i-1]\[j];
+>>            }
 > * Return dp\[Wt.length]\[sum]
 
 #### Variations:
