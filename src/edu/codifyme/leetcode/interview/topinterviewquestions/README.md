@@ -10,3 +10,6 @@
 
 ### _**Tree:**_
 * [Iterative In order](tree/IterativeInorder.java) - **(EASY)**
+* [Convert Sorted Array to Binary Search Tree](tree/SortedArrayToBST.java) - **(EASY)**
+* [Subtree of Another Tree](tree/SubtreeOfTree.java) - **(EASY)**
+* [Trim a Binary Search Tree](tree/TrimABST.java) - **(EASY)**

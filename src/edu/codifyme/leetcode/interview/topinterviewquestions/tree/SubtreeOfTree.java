@@ -1,5 +1,7 @@
 package edu.codifyme.leetcode.interview.topinterviewquestions.tree;
 
+import java.util.HashSet;
+
 /**
  * 572. Subtree of Another Tree
  * EASY: https://leetcode.com/problems/subtree-of-another-tree/
@@ -39,41 +41,19 @@ package edu.codifyme.leetcode.interview.topinterviewquestions.tree;
  */
 public class SubtreeOfTree {
     public boolean isSubtree(TreeNode s, TreeNode t) {
-        if (s == null) {
-            if (t == null) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-
-        if (isMatching(s, t)) {
-            return true;
-        } else if ( isSubtree(s.left, t) ) {
-            return true;
-        } else if ( isSubtree(s.right, t) ) {
-            return true;
-        } else {
-            return false;
-        }
+        return traverse(s,t);
     }
-
-    private boolean isMatching(TreeNode s, TreeNode t) {
-        if (s == null) {
-            if (t == null) {
-                return true;
-            } else {
-                return false;
-            }
-        } else if (t == null) {
+    public boolean equals(TreeNode x,TreeNode y)
+    {
+        if(x==null && y==null)
+            return true;
+        if(x==null || y==null)
             return false;
-        }
-
-        if ( s.val != t.val) {
-            return false;
-        } else {
-            return isMatching(s.left, t.left) && isMatching(s.right, t.right);
-        }
+        return x.val==y.val && equals(x.left,y.left) && equals(x.right,y.right);
+    }
+    public boolean traverse(TreeNode s,TreeNode t)
+    {
+        return  s!=null && ( equals(s,t) || traverse(s.left,t) || traverse(s.right,t));
     }
 
     // Definition for a binary tree node.
@@ -83,4 +63,21 @@ public class SubtreeOfTree {
         TreeNode right;
         TreeNode(int x) { val = x; }
     }
+
+    // Approach 2: Using Preorder Traversal
+//    HashSet< String > trees = new HashSet < > ();
+//    public boolean isSubtree(TreeNode s, TreeNode t) {
+//        String tree1 = preorder(s, true);
+//        String tree2 = preorder(t, true);
+//        return tree1.indexOf(tree2) >= 0;
+//    }
+//    public String preorder(TreeNode t, boolean left) {
+//        if (t == null) {
+//            if (left)
+//                return "lnull";
+//            else
+//                return "rnull";
+//        }
+//        return "#"+t.val + " " +preorder(t.left, true)+" " +preorder(t.right, false);
+//    }
 }
