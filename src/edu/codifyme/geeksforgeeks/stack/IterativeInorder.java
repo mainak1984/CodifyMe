@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.topinterviewquestions.tree;
+package edu.codifyme.geeksforgeeks.stack;
 
 import java.util.Stack;
 
