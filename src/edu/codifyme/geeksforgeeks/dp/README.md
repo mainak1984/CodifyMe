@@ -175,6 +175,30 @@
 ## _**8. DP On Trees**_
 ### Source Code:
 > * Sample (4)
+> ```java
+> int result;
+> 
+> int solve(TreeNode root) {
+>     if (null == root) {
+>         return 0;
+>     }
+>     
+>     int l = solve(root.left, result);
+>     int r = solve(root.right, result);
+> 
+>     int temp = 1 + Math.max(l, r); // May change assignment based on problem
+>     int ans = Math.max(temp, 1+l+r); // May change 2nd param based on problem
+>     result = Math.max(result, ans);
+> 
+>     return temp;
+> }
+> ```
+
+#### 8.A. Diameter of a Binary Tree
+
+#### 8.B. Maximum path Sum from any node to any Node
+
+#### 8.C. Maximum path Sum from leaf to leaf
 
 
 ## _**9. DP On Grid**_
