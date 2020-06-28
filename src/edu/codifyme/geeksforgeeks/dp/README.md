@@ -156,6 +156,32 @@
 #### 3.A. Print LCS - Print longest common substring between 2 strings
 
 #### 3.B. Shortest Common Super sequence - Find the common super sequence and the shortest one of them
+> * Get the DP array for LCS and use backtracking for getting the string
+>
+> ```java
+> String getLCSString(String x, String y, int n, int m) {
+>     int[][] dp = new int[n][m];
+>     // Get the DP Array ready
+>     
+>     StringBuilder sb = new StringBuilder();    
+> 
+>     while ( n > 0 && m > 0 ) {
+>         if ( x.charAt(n - 1) == y.charAt(m - 1) ) {
+>             sb.append(x.charAt(n - 1));
+>             n--;
+>             m--;
+>         } else {
+>             if ( dp[n-1][m] > dp[n][m-1] ) {
+>                 n--;
+>             } else {
+>                 m--;
+>             }
+>         }
+>     }
+> 
+>     return sb.reserse().toString();
+> }
+> ```
 
 #### 3.C. Print SCS - Print Shortest Common Super sequence
 
