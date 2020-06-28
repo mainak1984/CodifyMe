@@ -112,6 +112,46 @@
 ## _**3. Longest Common Substring**_
 ### Source Code:
 > * Sample (15)
+> ```java
+> // Recursion
+> int LCS(String x, String y, int n, int m) {
+>     if (n == 0 || m == 0) {
+>         return 0;
+>     }
+> 
+>     // Memoization
+>     if ( dp[m][n] != -1 ) {
+>         return dp[m][n];
+>     }
+> 
+>     if ( x.charAt(n-1) == y.charAt(m-1) ) {
+>         dp[m][n] = 1 + LCS(x, y, n-1, m-1);
+>     } else {
+>         dp[m][n] = Math.max( LCS(x, y, n-1, m), LCS(x, y, n, m-1) );
+>     }
+>     return dp[m][n];
+> }
+> 
+> // DP
+> int LCS(String x, String y, int n, int m) {
+>     int[][] dp = new int[n+1][m+1];
+> 
+>     for (int i = 0; i < n; i++) {
+>         for (for j = 0; j < m; j++) {
+>             if ( i == 0 || j == 0 ) {
+>                 dp[i][j] = 0;
+>             }
+> 
+>             if ( x.charAt(i-1) == y.charAt(j-1) ) {
+>                 dp[i][j] = 1 + dp[i-1][j-1];
+>             } else {
+>                 dp[i][j] = Math.max( dp[i][j-1], dp[i-1][j] );
+>             }
+>         }
+>     }
+>     return dp[n][m];
+> }
+> ```
 
 #### 3.A. Print LCS - Print longest common substring between 2 strings
 
