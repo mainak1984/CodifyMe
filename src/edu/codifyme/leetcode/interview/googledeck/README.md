@@ -2,14 +2,15 @@
 
 ### _**Intro:**_
 * [Odd Even Jump](intro/OddEvenJump.java) - **(HARD)**
-* [Fruit Into Baskets](intro/OddEvenJump.java) - **(MEDIUM)**
+* [Fruit Into Baskets](intro/FruitIntoBaskets.java) - **(MEDIUM)**
 
 ### _**Array & String:**_
 #### **Two pointer**
 * [Minimum Window Substring](arraynstring/MinimumWindowSubstring.java) - **(HARD)** - Template attached
 * [Longest Substring with N Distinct Characters](arraynstring/LongestSubstrWithNDistinctChars.java) - **(MEDIUM
 )** - Template attached
-* [Longest Substring without repeating](arraynstring/LongestSubstringWithourRepeat.java) - **(MEDIUM)**
+* [Longest Substring without repeating](arraynstring/LongestSubstringWithourRepeat.java) - **(MEDIUM)** - TODO
+: Convert in template
 * [Container With Most Water](arraynstring/ContainerWithMostWater.java) - **(MEDIUM)**
 * [3 Sum](arraynstring/ThreeSum.java) - **(MEDIUM)**
 #### **Top K/Quickselect**

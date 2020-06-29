@@ -196,6 +196,8 @@
 #### 3.H. Count how many times A appears as subsequnce in B
 
 #### 3.I. Largest Palindromic Subsequence
+> Reverse the original substring
+> return LCS(A, reverse(A))
 
 #### 3.J. Largest Palindromic Substring
 
