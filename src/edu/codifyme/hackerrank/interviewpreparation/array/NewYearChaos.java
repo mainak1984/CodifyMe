@@ -12,12 +12,51 @@ package edu.codifyme.hackerrank.interviewpreparation.array;
  * Fascinated by this chaotic queue, you decide you must know the minimum number of bribes that took place to get the
  * queue into its current state!
  *
+ * Function Description:
+ * Complete the function minimumBribes in the editor below. It must print an integer representing the minimum number of
+ * bribes necessary, or Too chaotic if the line configuration is not possible.
+ * minimumBribes has the following parameter(s):
+ * q: an array of integers
+ *
+ * Input Format:
+ * The first line contains an integer , the number of test cases.
+ * Each of the next  pairs of lines are as follows:
+ * - The first line contains an integer , the number of people in the queue
+ * - The second line has  space-separated integers describing the final state of the queue.
+ *
+ * Output Format
+ * Print an integer denoting the minimum number of bribes needed to get the queue into its final state. Print Too chaotic if the state is invalid, i.e. it requires a person to have bribed more than  people.
+ *
+ * Sample Input
+ * 2
+ * 5
+ * 2 1 5 3 4
+ * 5
+ * 2 5 1 3 4
+ * Sample Output
+ * 3
+ * Too chaotic
+ *
  * Solution:
  * Start from end and check if the person is moved from original position
  * If moved, bring this person back to its position and swap others up
  * total no. of swaps are no. of bribes
  */
 public class NewYearChaos {
+//    void calc(vector<int> q)
+//    {
+//        int ans = 0;
+//        for (int i = q.size() - 1; i >= 0; i--) {
+//            if (q[i] - (i + 1) > 2) {
+//                cout << "Too chaotic" << endl;
+//                return;
+//            }
+//            for (int j = max(0, q[i] - 2); j < i; j++)
+//                if (q[j] > q[i]) ans++;
+//        }
+//        cout << ans << endl;
+//    }
+
     // Complete the minimumBribes function below.
     static void minimumBribes(int[] q) {
         int[] bribe = new int[q.length];
