@@ -1,5 +1,5 @@
 # **Quick Review List**
 
 ### _**Array:**_
-
-* [New Year Chaos](array/NewYearChaos.java) - **(MEDIUM)** - Template attached
+* [Minimum Swaps 2](array/MinSwapsOfPair.java) - **(MEDIUM)**
+* [New Year Chaos](array/NewYearChaos.java) - **(MEDIUM)**

@@ -46,6 +46,22 @@ package edu.codifyme.hackerrank.interviewpreparation.array;
 public class MinSwapsOfPair {
     // Complete the minimumSwaps function below.
     static int minimumSwaps(int[] arr) {
+        // Alternate:
+//        int swap=0;
+//        for(int i=0;i<a.length;i++){
+//            if(i+1!=a[i]){
+//                int t=i;
+//                while(a[t]!=i+1){
+//                    t++;
+//                }
+//                int temp=a[t];
+//                a[t]=a[i];
+//                a[i]=temp;
+//                swap++;
+//            }
+//        }
+//        return swap;
+
         // Keep an array to bookkeep if all the elements are touched
         //int[] fixed = new int[arr.length];
         int swap = 0;
