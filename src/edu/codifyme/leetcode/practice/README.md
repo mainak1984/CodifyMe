@@ -5,3 +5,4 @@
 
 ### _**Stack:**_
 * [Longest Valid Parenthesis](stack/LongestValidParenthesis.java) - **(HARD)**
+* [Increasing Order Search Tree](stack/IncreasingOrderSearchTree.java) - **(EASY)**
