@@ -12,4 +12,5 @@
 * [Fraudulent Activity Notifications](sorting/FradulentActivity.java) - **(MEDIUM)** - find median using Count sort
 * [Counting Inversions](sorting/CountingInversions.java) - **(HARD)** - Application of merge sort
 
-
+### _**Greedy:**_
+* [Reverse Shuffle Merge](greedy/ReverseShuffleMerge.java) - **(HARD)**
