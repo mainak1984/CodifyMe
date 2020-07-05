@@ -9,7 +9,7 @@
 * [Count Triplet](hashmap/CountTriplets.java) - **(MEDIUM)**
 
 ### _**Sorting:**_
-* [Fraudulent Activity Notifications](sorting/FradulentActivity.java) - **(MEDIUM)**
-
+* [Fraudulent Activity Notifications](sorting/FradulentActivity.java) - **(MEDIUM)** - find median using Count sort
+* [Counting Inversions](sorting/CountingInversions.java) - **(HARD)** - Application of merge sort
 
 
