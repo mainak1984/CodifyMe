@@ -14,3 +14,6 @@
 
 ### _**Greedy:**_
 * [Reverse Shuffle Merge](greedy/ReverseShuffleMerge.java) - **(HARD)**
+
+### _**Stack:**_
+* [Largest Rectangle](stack/LargestRectangle.java) - **(MEDIUM)**
