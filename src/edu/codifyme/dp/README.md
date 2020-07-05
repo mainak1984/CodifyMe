@@ -62,7 +62,7 @@
 #### 1.F. Target Sum - Change sign to + and - and find count of subset having diff of 'sum'
 #### Differences:
 > * This is exactly same as Count of subset with given diff  
-> * [Code Ref](../../leetcode/practice/dp/TargetSum.java)   
+> * [Code Ref](../leetcode/practice/dp/TargetSum.java)   
 
 
 ## _**2. Unbounded Knapsack problem**_
@@ -104,7 +104,7 @@
 > * Init dp\[0]\[j] as _**Integer.MAX_VALUE**_, dp\[0]\[0] as _**0**_  
 > * Treat only array (Coin\[]) as Wt arr and target change as sum  
 > * Instead of Max, use _**MIN**_ on int returns  
-> * [Code Ref](../../leetcode/interview/googledeck/dp/CoinChange.java)   
+> * [Code Ref](../leetcode/interview/googledeck/dp/CoinChange.java)   
 
 #### 2.D. Minimum Ribbon Cut
 

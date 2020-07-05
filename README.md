@@ -16,7 +16,7 @@ All programming practice in a single place
 * [LC Top Interview Questions Review](src/edu/codifyme/leetcode/interview/topinterviewquestions/README.md)
 
 ### **DP Cheat Sheet**
-* [DP Review](src/edu/codifyme/geeksforgeeks/dp/README.md)
+* [DP Review](src/edu/codifyme/dp/README.md)
 
 
 ## _**Company:**_
