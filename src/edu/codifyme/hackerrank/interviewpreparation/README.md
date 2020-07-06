@@ -18,3 +18,6 @@
 ### _**Stack:**_
 * [Largest Rectangle](stack/LargestRectangle.java) - **(MEDIUM)** - Largest Area in histogram
 * [Min Max Riddle](stack/MInMaxRiddle.java) - **(MEDIUM)**
+
+### _**Search:**_
+* [Minimum Time Required](search/MinimumTimeRequired.java) - **(MEDIUM)** - Binary search application
