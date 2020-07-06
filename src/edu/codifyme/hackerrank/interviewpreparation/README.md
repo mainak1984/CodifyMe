@@ -22,3 +22,4 @@
 ### _**Search:**_
 * [Minimum Time Required](search/MinimumTimeRequired.java) - **(MEDIUM)** - Binary search application
 * [Making Candies](search/MakingCandies.java) - **(HARD)** - Greedy
+* [Maximum Subarray Sum](search/MaximumSubarraySum.java) - **(HARD)** - Use of modulo operator
