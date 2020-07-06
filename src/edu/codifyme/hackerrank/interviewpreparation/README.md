@@ -16,4 +16,5 @@
 * [Reverse Shuffle Merge](greedy/ReverseShuffleMerge.java) - **(HARD)**
 
 ### _**Stack:**_
-* [Largest Rectangle](stack/LargestRectangle.java) - **(MEDIUM)**
+* [Largest Rectangle](stack/LargestRectangle.java) - **(MEDIUM)** - Largest Area in histogram
+* [Min Max Riddle](stack/MInMaxRiddle.java) - **(MEDIUM)**
