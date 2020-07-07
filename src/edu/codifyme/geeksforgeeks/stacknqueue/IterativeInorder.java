@@ -1,4 +1,4 @@
-package edu.codifyme.geeksforgeeks.stack;
+package edu.codifyme.geeksforgeeks.stacknqueue;
 
 import java.util.Stack;
 
