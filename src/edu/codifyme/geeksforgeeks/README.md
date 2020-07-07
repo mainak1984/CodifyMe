@@ -9,3 +9,6 @@
 
 ### _**Stacks and Queues:**_
 * [Median of a Stream](stacknqueue/MedianOfStream.java) - **(MEDIUM)**
+
+### _**Tree and Graph:**_
+* [Celebrity Problem](treengraph/CelebrityProblem.java) - **(MEDIUM)**
