@@ -2,6 +2,7 @@
 
 ### _**Array:**_
 * [Find all triplets with zero sum](array/FindAllTripletsWithZeroSum.java) - **(MEDIUM)**
+* [Find four elements with given sum](array/FourElementSumToGivenValue.java) - **(MEDIUM)**
 
 ### _**recursion:**_
 * [Jumping NUmbers](recursion/JumpingNumbers.java) - **(MEDIUM)**
