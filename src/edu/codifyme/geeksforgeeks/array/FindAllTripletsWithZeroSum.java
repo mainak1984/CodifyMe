@@ -3,7 +3,7 @@ package edu.codifyme.geeksforgeeks.array;
 import java.util.Arrays;
 
 /**
- * MEDIUM:
+ * MEDIUM: Find all triplets with zero sum
  * https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/
  *
  * Given an array of distinct elements. The task is to find triplets in the array whose sum is zero.

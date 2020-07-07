@@ -1,7 +1,7 @@
 package edu.codifyme.geeksforgeeks.recursion;
 
 /**
- * EASY:
+ * EASY: Generate all binary strings from given pattern
  * https://www.geeksforgeeks.org/generate-all-binary-strings-from-given-pattern/
  *
  * Given a string containing of ‘0’, ‘1’ and ‘?’ wildcard characters, generate all binary strings that can be formed by

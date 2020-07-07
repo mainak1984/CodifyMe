@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * MEDIUM:
+ * MEDIUM: Median in a stream of integers (running integers)
  * https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
  *
  * Given that integers are read from a data stream. Find median of elements read so for in efficient way. For simplicity

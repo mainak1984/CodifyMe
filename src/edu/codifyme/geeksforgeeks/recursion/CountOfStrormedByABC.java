@@ -1,7 +1,7 @@
 package edu.codifyme.geeksforgeeks.recursion;
 
 /**
- * EASY:
+ * EASY: Count of strings that can be formed using a, b and c under given constraints
  * https://www.geeksforgeeks.org/count-strings-can-formed-using-b-c-given-constraints/
  *
  * Given a length n, count the number of strings of length n that can be made using ‘a’, ‘b’ and ‘c’ with at-most one
