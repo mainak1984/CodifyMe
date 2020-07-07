@@ -14,3 +14,4 @@
 * [Celebrity Problem](treengraph/CelebrityProblem.java) - **(MEDIUM)**
 * [Binary Tree contains duplicate subtrees of size >= 2](treengraph/DuplicateSubtreeinBinaryTree.java) - **(MEDIUM)**
 * [Connect Node at same level](treengraph/ConnectNodeAtSameLevel.java) - **(EASY)** - Level by level traversing
+* [Count BST nodes in a range](treengraph/CountBSTNodesInRange.java) - **(EASY)**
