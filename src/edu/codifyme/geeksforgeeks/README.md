@@ -12,3 +12,4 @@
 
 ### _**Tree and Graph:**_
 * [Celebrity Problem](treengraph/CelebrityProblem.java) - **(MEDIUM)**
+* [Binary Tree contains duplicate subtrees of size >= 2](treengraph/DuplicateSubtreeinBinaryTree.java) - **(MEDIUM)**
