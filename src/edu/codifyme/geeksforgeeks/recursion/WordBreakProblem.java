@@ -53,7 +53,7 @@ public class WordBreakProblem {
                 if (i == n) {
                     // add this element to previous prefix
                     result += prefix;
-                    System.out.println(result); //print result 
+                    System.out.println(result); //print result
                     return;
                 }
                 wordBreakUtil(str.substring(i, n), n-i,result + prefix + " ");
