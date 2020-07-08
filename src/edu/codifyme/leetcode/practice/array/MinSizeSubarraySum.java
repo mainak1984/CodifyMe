@@ -14,8 +14,12 @@ package edu.codifyme.leetcode.practice.array;
  * Explanation: the subarray [4,3] has the minimal length under the problem constraint.
  * Follow up:
  * If you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log n).
+ *
+ * Solution:
+ * We can use 2 points to mark the left and right boundaries of the sliding window. When the sum is greater than the
+ * target, shift the left pointer; when the sum is less than the target, shift the right pointer.
  */
-public class MinimumSizeSubarraySum {
+public class MinSizeSubarraySum {
     public int minSubArrayLen(int s, int[] nums) {
         if(nums==null||nums.length==0)
             return 0;

@@ -2,6 +2,7 @@
 
 ### _**Array:**_
 * [Three Sum closest](array/ThreeSumClosest.java) - **(MEDIUM)** - Variation of 3 pointer approach
+* [Longest Consecutive Sequence](array/LongestConsecutiveSequence.java) - **(HARD)**
 
 ### _**DP:**_
 * [Target Sum](dp/TargetSum.java) - **(MEDIUM)** - Variation of 0/1 Knapsack
