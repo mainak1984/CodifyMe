@@ -28,6 +28,12 @@ package edu.codifyme.geeksforgeeks.others;
  *                           1 + 2 + 0
  *                        = 8
  * Source: Google Interview Question
+ *
+ * Solution:
+ * An Efficient Solution can solve this problem in O(n) time using the fact that all numbers are represented using 32
+ * bits (or some fixed number of bits). The idea is to count differences at individual bit positions. We traverse from
+ * 0 to 31 and count numbers with i’th bit set. Let this count be ‘count’. There would be “n-count” numbers with i’th
+ * bit not set. So count of differences at i’th bit would be “count * (n-count) * 2”.
  */
 public class SumOfBitDifferencesAmongAllPairs {
     static int sumBitDifferences(int arr[], int n)
