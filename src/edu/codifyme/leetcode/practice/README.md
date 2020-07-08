@@ -8,6 +8,9 @@
 ### _**DP:**_
 * [Target Sum](dp/TargetSum.java) - **(MEDIUM)** - Variation of 0/1 Knapsack
 
+### _**Greedy:**_
+* [Gas Station](greedy/GasStation.java) - **(MEDIUM)**
+
 ### _**Stack:**_
 * [Longest Valid Parenthesis](stack/LongestValidParenthesis.java) - **(HARD)**
 * [Increasing Order Search Tree](stack/IncreasingOrderSearchTree.java) - **(EASY)**
