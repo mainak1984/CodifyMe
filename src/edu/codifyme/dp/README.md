@@ -31,6 +31,7 @@
 ##### Differences:
 > * Get whole array sum - arrTotalSum  
 > * Call _**SubsetSum(arr[], arrTotalSum/2)**_  
+> * [Code ref](PartitionEqualSubsetSum.java)
 
 #### 1.C. Count of Subset Sum - Find how many possible subsets whose sum matches is given sum
 #### Differences:
