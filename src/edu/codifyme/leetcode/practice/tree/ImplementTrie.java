@@ -25,7 +25,7 @@ public class ImplementTrie {
     TrieNode head = null;
 
     /** Initialize your data structure here. */
-    public Trie() {
+    public ImplementTrie() {
         head = new TrieNode();
     }
 
