@@ -8,6 +8,9 @@
 ### _**DP:**_
 * [Target Sum](dp/TargetSum.java) - **(MEDIUM)** - Variation of 0/1 Knapsack
 
+### _**Graph:**_
+* [All Paths from Source Lead to Destination](graph/AllPathsFromSourceToDestination.java) - **(MEDIUM)**
+
 ### _**Greedy:**_
 * [Gas Station](greedy/GasStation.java) - **(MEDIUM)**
 

@@ -49,25 +49,78 @@ public class ShortestWayToFormString {
         for (char ch: target.toCharArray()) {
             currPos = source.indexOf(ch, currPos);
             if ( -1 == currPos ) {
-                // reset currPos and check again in the source array
-                // System.out.println("not found Initially ");
-                currPos = 0;
+                // reset currPos and check again in the source array; not found Initially
                 noOfParts += 1;
-                currPos = source.indexOf(ch, currPos);
+                currPos = source.indexOf(ch);
                 if (-1 == currPos) {
                     return -1;
                 } else {
                     currPos += 1;
-                    // System.out.println("found in next "+ch+", "+currPos);
                 }
             } else {
-                // System.out.println("found "+ch+", "+currPos);
                 currPos += 1;
             }
         }
 
         return noOfParts;
     }
+
+    // Approach 2; building an index
+//    public int shortestWay(String source, String target) {
+//        int[][] map = new int[26][source.length()];
+//
+//        for (int i = 0; i < 26; i++) {
+//            Arrays.fill(map[i], -1);
+//        }
+//
+//        buildMap(map, source);
+//
+//        int index = -1;
+//        int count = 0;
+//
+//        for (char ch: target.toCharArray()) {
+//            int val = map[ch-'a'][++index];
+//
+//            if (val == -1) {
+//                index = source.indexOf(ch);
+//
+//                if ( index == -1) {
+//                    return -1;
+//                }
+//
+//                count++;
+//            } else {
+//                index = val;
+//
+//                if (index == source.length() - 1) {
+//                    count++;
+//                    index = -1;
+//                }
+//            }
+//        }
+//
+//        if (index != -1) {
+//            count++;
+//        }
+//
+//        return count;
+//    }
+//
+//    void buildMap(int[][] map, String source) {
+//        for (int i = source.length() - 1; i >= 0; i--) {
+//            int ch = source.charAt(i);
+//            int index = -1;
+//
+//            if ( map[ch - 'a'][0] == -1) {
+//                for (int j = source.length() - 1; j >= 0; j--) {
+//                    if ( source.charAt(j) == ch ) {
+//                        index = j;
+//                    }
+//                    map[ch - 'a'][j] = index;
+//                }
+//            }
+//        }
+//    }
 
     // Approach 2: Using pre-filled array
     // https://leetcode.com/problems/shortest-way-to-form-string/discuss/332419/O(M-%2B-N)-Java-solution-with-commented-code-and-detailed-explanation-(Beats-98)

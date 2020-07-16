@@ -85,7 +85,6 @@ public class AllPathsFromSourceToDestination {
 
         // if it has no child, return false
         if (!graph.containsKey(node)) {
-            // System.out.println("false 1");
             return false;
         }
 
@@ -93,14 +92,11 @@ public class AllPathsFromSourceToDestination {
         // if child is visited, but not in accepted set, return false
         for (Integer child: graph.get(node)) {
             if ( !visited.contains(child) ) {
-                // System.out.println("Calling "+child);
                 allChildVisited = false;
                 if (dfs(visited, accepted, child, destination) == false) {
-                    // System.out.println("false 2");
                     return false;
                 }
             } else if ( !accepted.contains(child) ) {
-                // System.out.println("false 3 , parent "+node+", child "+child);
                 return false;
             }
         }
