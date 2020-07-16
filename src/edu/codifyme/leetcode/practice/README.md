@@ -20,3 +20,4 @@
 
 ### _**Other:**_
 * [Wildcard Matching](others/WildcardMatching.java) - **(HARD)**
+* [Permutations](others/Permutations.java) - **(MEDIUM)**
