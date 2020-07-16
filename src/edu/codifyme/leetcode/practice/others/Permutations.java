@@ -32,10 +32,10 @@ public class Permutations {
 
     void traverse(int[] nums, int pos, List<List<Integer>> result) {
         // check end condition and print
-        if ( pos == nums.length - 1 ) {
+        if (pos == nums.length - 1) {
             List<Integer> list = new ArrayList<>();
             // add it to list
-            for (int num: nums) {
+            for (int num : nums) {
                 list.add(num);
             }
             result.add(list);
@@ -49,12 +49,13 @@ public class Permutations {
             nums[loop] = nums[pos];
             nums[pos] = temp;
 
-            traverse(nums, pos+1, result);
+            traverse(nums, pos + 1, result);
 
             temp = nums[loop];
             nums[loop] = nums[pos];
             nums[pos] = temp;
         }
+    }
 
         // Efficient Implementation: Heap's algorithm
 //        public static <T> void printAllRecursive(int n, T[] elements, char delimiter) {
@@ -73,4 +74,4 @@ public class Permutations {
 //                printAllRecursive(n - 1, elements, delimiter);
 //            }
 //        }
-    }
+}
