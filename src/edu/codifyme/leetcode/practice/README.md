@@ -20,5 +20,8 @@
 * [Remove All Adjacent Duplicates In String](stack/RemoveAllAdjacentDuplicates.java) - **(EASY)**
 
 ### _**Other:**_
+* [Stream of Characters](tree/StreamOfCharacters.java) - **(HARD)** - Good problem solved by Trie
+
+### _**Other:**_
 * [Wildcard Matching](others/WildcardMatching.java) - **(HARD)**
 * [Permutations](others/Permutations.java) - **(MEDIUM)**
