@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.practice.stack;
+package edu.codifyme.leetcode.practice.stacknqueue;
 
 import java.util.LinkedList;
 import java.util.Stack;
