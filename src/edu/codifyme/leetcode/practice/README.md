@@ -14,6 +14,9 @@
 ### _**Greedy:**_
 * [Gas Station](greedy/GasStation.java) - **(MEDIUM)**
 
+### _**Search and Sort:**_
+* [Exam Room](searchnsort/ExamRoom.java) - **(MEDIUM)**
+
 ### _**Stack And Queue:**_
 * [Longest Valid Parenthesis](stacknqueue/LongestValidParenthesis.java) - **(HARD)**
 * [Increasing Order Search Tree](stacknqueue/IncreasingOrderSearchTree.java) - **(EASY)**
