@@ -1,7 +1,5 @@
 package edu.codifyme.leetcode.interview.googledeck.treesngrapsh;
 
-import javafx.util.Pair;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -32,6 +30,8 @@ import java.util.Set;
  * ]
  * Output: 4
  * Explanation: The longest increasing path is [3, 4, 5, 6]. Moving diagonally is not allowed.
+ *
+ * Approach: Recursion + Memoization
  */
 public class LongestIncreasingPathInMatrix {
 
@@ -59,57 +59,51 @@ public class LongestIncreasingPathInMatrix {
         return ++cache[i][j];
     }
 
+    // Alternate code
+//    public static int VISITED = Integer.MIN_VALUE;
+//    int[][] dp;
+//
 //    public int longestIncreasingPath(int[][] matrix) {
-//        if (null == matrix || 0 == matrix.length) {
+//        if (null == matrix || matrix.length == 0) {
 //            return 0;
 //        }
 //
-//        int[][] visited = new int[matrix.length][matrix[0].length];
+//        dp = new int[matrix.length][matrix[0].length];
+//        int result = 0;
 //
-//        for(int i=0; i < matrix.length; i++) {
-//            for(int j=0; j < matrix[0].length; j++) {
-//                if ( 0 == visited[i][j] ) {
-//                    findPath(matrix, i, j, Integer.MIN_VALUE, visited, new HashSet<Pair<Integer, Integer>>());
+//        for (int i = 0; i < matrix.length; i++) {
+//            for (int j = 0; j < matrix[0].length; j++) {
+//                if(dp[i][j] == 0) {
+//                    result = Math.max(result, dfs(matrix, i, j, Integer.MIN_VALUE));
 //                }
 //            }
 //        }
 //
-//        return maxSoFar;
+//        return result;
 //    }
 //
-//    int maxSoFar = 0;
-//
-//    public int findPath(int[][] matrix, int i, int j, int prev, int[][] visited, Set<Pair<Integer, Integer>> currentStack) {
-//        if ( i < 0 || i > matrix.length-1 || j <0 || j > matrix[0].length - 1) {
+//    int dfs(int[][] matrix, int i, int j, int prevNum) {
+//        if (i < 0 || i >= matrix.length || j < 0 || j >= matrix[0].length || matrix[i][j] == VISITED || matrix[i][j] <= prevNum) {
 //            return 0;
 //        }
-//        if ( prev >= matrix[i][j] ) {
-//            return 0;
-//        }
-//        if (visited[i][j] != 0) {
-//            if (currentStack.contains(new Pair<>(i, j))) {
-//                return 0;
-//            } else {
-//                return visited[i][j];
-//            }
+//
+//        if (dp[i][j] != 0) {
+//            return dp[i][j];
 //        }
 //
-//        visited[i][j] = 1;
-//        currentStack.add(new Pair<>(i, j));
+//        int val = matrix[i][j];
+//        matrix[i][j] = VISITED;
 //
-//        int right = findPath(matrix, i, j+1, matrix[i][j], visited, currentStack);
-//        int down = findPath(matrix, i+1, j, matrix[i][j], visited, currentStack);
-//        int left = findPath(matrix, i, j-1, matrix[i][j], visited, currentStack);
-//        int up = findPath(matrix, i-1, j, matrix[i][j], visited, currentStack);
+//        int d = dfs(matrix, i+1, j, val);
+//        int r = dfs(matrix, i, j+1, val);
+//        int l = dfs(matrix, i, j-1, val);
+//        int u = dfs(matrix, i-1, j, val);
 //
-//        currentStack.remove(new Pair<>(i, j));
+//        int res = Math.max(Math.max(d,r), Math.max(l,u))+1;
+//        dp[i][j] = res;
 //
-//        int maxLenFromHere = Math.max(Math.max(right, down), Math.max(left,up)) + 1;
+//        matrix[i][j] = val;
 //
-//        maxSoFar = Math.max(maxSoFar, maxLenFromHere);
-//
-//        visited[i][j] = maxLenFromHere;
-//
-//        return maxLenFromHere;
+//        return res;
 //    }
 }
