@@ -72,10 +72,6 @@
 * [Guess the Word](others/GuessTheWord.java) - **(HARD)**
 * [Minimum Area Rectangle](others/MinimumAreaRectangle.java) - **(MEDIUM)**
 
-### _**Mock Set:**_
-* [Minimum Domino Rotations For Equal Row](ymockprep/MinimumDominoRotationsForEqualRow.java) - **(MEDIUM)**
-* [Network Delay Time](ymockprep/NetworkDelayTime.java) - **(MEDIUM)**
-
 ### _**Top_50:**_
 * [Campus Bikes](ztopfifty/CampusBikes.java) - **(MEDIUM)**
 * [Delete Nodes And Return Forest](ztopfifty/DeleteNodesAndReturnForest.java) - **(MEDIUM)**

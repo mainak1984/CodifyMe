@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.googledeck.ymockprep;
+package edu.codifyme.leetcode.interview.mocktest.google;
 
 /**
  * EASY:
