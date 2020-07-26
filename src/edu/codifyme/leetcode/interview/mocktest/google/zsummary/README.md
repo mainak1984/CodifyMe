@@ -4,6 +4,15 @@
 (Upto 3 question, 1.5 Hours)
 
 ### _**Set 1:**_
+>**Time Taken:** 1 hour
+>**Rank:** 33%
+* [Student Attendance Record I](../string/StudentAttendanceRecordI.java) - **(EASY)**
+* [Network Delay Time](../graph/NetworkDelayTime.java) - **(MEDIUM)**
+
+## _**Phone Interview:**_ 
+(Upto 3 question, 1.5 Hours)
+
+### _**Set 1:**_
 >**Time Taken:** 1 hour 30 minutes
 >**Rank:** 11%
 * [Duplicate Zeros](../array/DuplicateZeros.java) - **(EASY)**
