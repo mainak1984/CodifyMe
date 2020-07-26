@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.interview.mocktest.google;
+package edu.codifyme.leetcode.interview.mocktest.google.sortnsearch;
 
 /**
  * EASY:
