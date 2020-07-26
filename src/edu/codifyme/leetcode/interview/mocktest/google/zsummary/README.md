@@ -1,13 +1,15 @@
 # **Google Mock Question List**
 
-## _**Phone Interview:**_ 
-(Upto 3 question, 1.5 Hours)
+
+## _**Online Assessment:**_ 
+(Upto 2 question, 1 Hours)
 
 ### _**Set 1:**_
 >**Time Taken:** 1 hour
 >**Rank:** 33%
 * [Student Attendance Record I](../string/StudentAttendanceRecordI.java) - **(EASY)**
 * [Network Delay Time](../graph/NetworkDelayTime.java) - **(MEDIUM)**
+
 
 ## _**Phone Interview:**_ 
 (Upto 3 question, 1.5 Hours)
@@ -32,4 +34,11 @@
 * [Snapshot Array](../array/SnapshotArray.java) - **(MEDIUM)**
 
 
+## _**On-site Interview:**_ 
+(Upto 4 question, 2 Hours)
 
+### _**Set 1:**_
+>**Time Taken:** 1 hour
+>**Rank:** 33%
+* [Student Attendance Record I](../string/StudentAttendanceRecordI.java) - **(EASY)**
+* [Network Delay Time](../graph/NetworkDelayTime.java) - **(MEDIUM)**
