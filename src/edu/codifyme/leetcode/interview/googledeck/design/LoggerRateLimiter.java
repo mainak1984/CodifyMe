@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * EASY:
+ * EASY: Logger Rate Limiter
  * https://leetcode.com/problems/logger-rate-limiter
  *
  * Design a logger system that receive stream of messages along with its timestamps, each message should be printed if

@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.practice.others;
+package edu.codifyme.leetcode.interview.mocktest.google.others;
 
 import java.util.Map;
 

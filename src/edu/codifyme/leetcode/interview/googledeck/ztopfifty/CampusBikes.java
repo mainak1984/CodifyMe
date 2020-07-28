@@ -56,7 +56,8 @@ import java.util.*;
 public class CampusBikes {
     public int[] assignBikes(int[][] workers, int[][] bikes) {
         int n = workers.length;
-        Queue<int[]> q = new PriorityQueue<int[]>((a, b)->(a[0] == b[0] ? (a[1] == b[1] ? a[2] - b[2] : a[1] - b[1]) : a[0] - b[0]));
+        Queue<int[]> q = new PriorityQueue<int[]>((a, b)->(a[0] == b[0] ? (a[1] == b[1] ? a[2] - b[2] : a[1] - b[1]) :
+                a[0] - b[0]));
         int i = 0;
         for (int[] worker : workers) {
             int j = 0;

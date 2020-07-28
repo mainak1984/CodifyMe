@@ -1,5 +1,8 @@
 # **Quick Review List**
 
-### _**Mock Set:**_
-* [Minimum Domino Rotations For Equal Row](MinimumDominoRotationsForEqualRow.java) - **(MEDIUM)**
-* [Network Delay Time](NetworkDelayTime.java) - **(MEDIUM)**
+### _**Array:**_
+* [Minimum Domino Rotations For Equal Row](array/MinimumDominoRotationsForEqualRow.java) - **(MEDIUM)**
+
+### _**Graph:**_
+* [Network Delay Time](graph/NetworkDelayTime.java) - **(MEDIUM)**
+* [All Paths from Source Lead to Destination](graph/AllPathsFromSourceToDestination.java) - **(MEDIUM)**

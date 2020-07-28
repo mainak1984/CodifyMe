@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.practice.graph;
+package edu.codifyme.leetcode.interview.mocktest.google.graph;
 
 import java.util.*;
 
