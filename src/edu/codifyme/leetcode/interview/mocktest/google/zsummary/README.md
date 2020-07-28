@@ -49,3 +49,10 @@
 * [Logger Rate Limiter](../../../googledeck/design/LoggerRateLimiter.java) - **(EASY)**
 * [Campus Bikes](../../../googledeck/ztopfifty/CampusBikes.java) - **(MEDIUM)**
 * [All Paths from Source Lead to Destination](../graph/AllPathsFromSourceToDestination.java) - **(MEDIUM)**
+
+### _**Set 2:**_
+>**Time Taken:** 48 minutes 4 seconds 
+>**Rank:** 82%
+* [Is Subsequence](../string/IsSubsequence.java) - **(EASY)**
+* [Maximal Square](../dp/MaximalSquare.java) - **(MEDIUM)**
+* [All Paths from Source Lead to Destination](../graph/AllPathsFromSourceToDestination.java) - **(MEDIUM)**

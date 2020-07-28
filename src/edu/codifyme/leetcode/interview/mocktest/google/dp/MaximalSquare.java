@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.practice.dp;
+package edu.codifyme.leetcode.interview.mocktest.google.dp;
 
 /**
  * MEDIUM: Maximal Square
