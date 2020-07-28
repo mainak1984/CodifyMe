@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.practice.stacknqueue;
+package edu.codifyme.leetcode.interview.mocktest.google.stacknqueue;
 
 /**
  * EASY: Remove All Adjacent Duplicates In String

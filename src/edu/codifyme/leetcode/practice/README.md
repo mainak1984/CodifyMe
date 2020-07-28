@@ -18,11 +18,8 @@
 ### _**Stack And Queue:**_
 * [Longest Valid Parenthesis](stacknqueue/LongestValidParenthesis.java) - **(HARD)**
 * [Increasing Order Search Tree](stacknqueue/IncreasingOrderSearchTree.java) - **(EASY)**
-* [Remove All Adjacent Duplicates In String](stacknqueue/RemoveAllAdjacentDuplicates.java) - **(EASY)**
 * [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](stacknqueue/LongestContSubarrayAbsDiffIsLimit.java) - **(MEDIUM)** - Pattern question, read discussion
 
-### _**Other:**_
-* [Stream of Characters](tree/StreamOfCharacters.java) - **(HARD)** - Good problem solved by Trie
 
 ### _**Other:**_
 * [Wildcard Matching](others/WildcardMatching.java) - **(HARD)**

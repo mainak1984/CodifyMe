@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.practice.tree;
+package edu.codifyme.leetcode.interview.mocktest.google.tree;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

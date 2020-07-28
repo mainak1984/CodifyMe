@@ -55,4 +55,11 @@
 >**Rank:** 82%
 * [Is Subsequence](../string/IsSubsequence.java) - **(EASY)**
 * [Maximal Square](../dp/MaximalSquare.java) - **(MEDIUM)**
-* [All Paths from Source Lead to Destination](../graph/AllPathsFromSourceToDestination.java) - **(MEDIUM)**
+* [String Transforms Into Another String](../../../googledeck/ztopfifty/StringTransformsIntoAnotherString.java) - **(HARD)**
+
+### _**Set 3:**_
+>**Time Taken:** 1 hour 51 minutes 58 seconds 
+>**Rank:** 42%
+* [Remove All Adjacent Duplicates In String](../stacknqueue/RemoveAllAdjacentDuplicates.java) - **(EASY)**
+* [Brace Expansion](../recursion/BraceExpansion.java) - **(MEDIUM)**
+* [Stream of Characters](../tree/StreamOfCharacters.java) - **(HARD)**
