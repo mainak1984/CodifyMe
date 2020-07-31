@@ -91,3 +91,10 @@
 * [Most Stones Removed with Same Row or Column](../../../googledeck/treesngrapsh/MostStonesRemovedWithSameRowOrColumn.java) - **(MEDIUM)**
 * [Longest Increasing Path in a Matrix](../../../googledeck/treesngrapsh/LongestIncreasingPathInMatrix.java) - **(HARD)**
 
+### _**Set 6:**_
+>**Time Taken:** 23 minutes 26 seconds 
+>**Rank:** 91%
+* [Single Row Keyboard](../string/SingleRowKeyboard.java) - **(EASY)**
+* [Maximum Level Sum of a Binary Tree](../tree/MaxLevelSumOfBinaryTree.java) - **(MEDIUM)**
+* [Odd Even Jump](../../../googledeck/intro/OddEvenJump.java) - **(HARD)**
+
