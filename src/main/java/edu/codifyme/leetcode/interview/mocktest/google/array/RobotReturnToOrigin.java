@@ -1,6 +1,4 @@
-package edu.codifyme.leetcode.practice.array;
-
-import java.util.Map;
+package edu.codifyme.leetcode.interview.mocktest.google.array;
 
 /**
  * EASY: Robot Return to Origin

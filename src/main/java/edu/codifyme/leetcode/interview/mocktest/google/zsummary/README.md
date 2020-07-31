@@ -45,9 +45,15 @@
 * [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../stacknqueue/LongestContSubarrayAbsDiffIsLimit.java) - **(MEDIUM)**
 * [Time Needed to Inform All Employees](../tree/TimeNeededToInformEmployees.java) - **(MEDIUM)**
 
+### _**Set 6:**_
+>**Time Taken:** 1 hour 27 minutes 5 seconds
+>**Rank:** 71%
+* [Delete Nodes And Return Forest](../../../googledeck/ztopfifty/DeleteNodesAndReturnForest.java) - **(MEDIUM)**
+* [Knight Probability in Chessboard](../recursion/KnightProbabilityInChess.java) - **(MEDIUM)**
+
 
 ## _**On-site Interview:**_ 
-(Upto 4 question, 2 Hours)ca
+(Upto 4 question, 2 Hours)
 
 ### _**Set 1:**_
 >**Time Taken:** 1 hour 42 minutes 30 seconds 
@@ -76,4 +82,12 @@
 * [Isomorphic String](../string/IsomorphicStrings.java) - **(EASY)**
 * [Exam Room](../sortnsearch/ExamRoom.java) - **(MEDIUM)**
 * [Decode String](../../../googledeck/treesngrapsh/DecodeString.java) - **(MEDIUM)**
+
+### _**Set 5:**_
+>**Time Taken:** 1 hour 43 minutes 50 seconds 
+>**Rank:** 73%
+* [Robot Return to Origin](../array/RobotReturnToOrigin.java) - **(EASY)**
+* [Expressive Words](../../../googledeck/arraynstring/ExpressiveWords.java) - **(MEDIUM)**
+* [Most Stones Removed with Same Row or Column](../../../googledeck/treesngrapsh/MostStonesRemovedWithSameRowOrColumn.java) - **(MEDIUM)**
+* [Longest Increasing Path in a Matrix](../../../googledeck/treesngrapsh/LongestIncreasingPathInMatrix.java) - **(HARD)**
 

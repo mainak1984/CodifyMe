@@ -7,6 +7,9 @@
 * [Network Delay Time](graph/NetworkDelayTime.java) - **(MEDIUM)**
 * [All Paths from Source Lead to Destination](graph/AllPathsFromSourceToDestination.java) - **(MEDIUM)**
 
+### _**Recursion:**_
+* [Knight Probability in Chessboard](recursion/KnightProbabilityInChess.java) - **(MEDIUM)**
+
 ### _**Search and Sort:**_
 * [Exam Room](sortnsearch/ExamRoom.java) - **(MEDIUM)**
 
