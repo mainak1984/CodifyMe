@@ -39,6 +39,12 @@
 * [Confusing Number](../others/ConfusingNumber.java) - **(EASY)**
 * [Shortest Way to Form String](../../../googledeck/ztopfifty/ShortestWayToFormString.java) - **(MEDIUM)**
 
+### _**Set 5:**_
+>**Time Taken:** 47 minutes 6 seconds
+>**Rank:** 71%
+* [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](../stacknqueue/LongestContSubarrayAbsDiffIsLimit.java) - **(MEDIUM)**
+* [Time Needed to Inform All Employees](../tree/TimeNeededToInformEmployees.java) - **(MEDIUM)**
+
 
 ## _**On-site Interview:**_ 
 (Upto 4 question, 2 Hours)ca
@@ -63,3 +69,11 @@
 * [Remove All Adjacent Duplicates In String](../stacknqueue/RemoveAllAdjacentDuplicates.java) - **(EASY)**
 * [Brace Expansion](../recursion/BraceExpansion.java) - **(MEDIUM)**
 * [Stream of Characters](../tree/StreamOfCharacters.java) - **(HARD)**
+
+### _**Set 4:**_
+>**Time Taken:** 56 minutes 54 seconds 
+>**Rank:** 93%
+* [Isomorphic String](../string/IsomorphicStrings.java) - **(EASY)**
+* [Exam Room](../sortnsearch/ExamRoom.java) - **(MEDIUM)**
+* [Decode String](../../../googledeck/treesngrapsh/DecodeString.java) - **(MEDIUM)**
+

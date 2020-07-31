@@ -1,9 +1,8 @@
-package edu.codifyme.leetcode.practice.searchnsort;
+package edu.codifyme.leetcode.interview.mocktest.google.sortnsearch;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;
-import java.util.TreeSet;
 
 /**
  * MEDIUM: Exam Room

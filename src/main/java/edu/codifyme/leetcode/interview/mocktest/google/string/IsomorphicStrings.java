@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.practice.string;
+package edu.codifyme.leetcode.interview.mocktest.google.string;
 
 /**
  * EASY: Isomorphic Strings

@@ -1,9 +1,4 @@
-package edu.codifyme.leetcode.practice.tree;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+package edu.codifyme.leetcode.interview.mocktest.google.tree;
 
 /**
  * MEDIUM: Time Needed to Inform All Employees

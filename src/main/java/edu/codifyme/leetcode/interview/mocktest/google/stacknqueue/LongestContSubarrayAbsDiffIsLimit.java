@@ -1,8 +1,7 @@
-package edu.codifyme.leetcode.practice.stacknqueue;
+package edu.codifyme.leetcode.interview.mocktest.google.stacknqueue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.TreeMap;
 
 /**
  * MEDIUM: Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
