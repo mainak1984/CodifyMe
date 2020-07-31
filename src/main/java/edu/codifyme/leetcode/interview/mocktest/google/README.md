@@ -2,6 +2,7 @@
 
 ### _**Array:**_
 * [Minimum Domino Rotations For Equal Row](array/MinimumDominoRotationsForEqualRow.java) - **(MEDIUM)**
+* [Longest Line of Consecutive One in Matrix](array/LongestLineOfConsecutiveOne.java) - **(MEDIUM)**
 
 ### _**Graph:**_
 * [Network Delay Time](graph/NetworkDelayTime.java) - **(MEDIUM)**

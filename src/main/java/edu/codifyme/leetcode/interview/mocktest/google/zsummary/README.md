@@ -51,6 +51,20 @@
 * [Delete Nodes And Return Forest](../../../googledeck/ztopfifty/DeleteNodesAndReturnForest.java) - **(MEDIUM)**
 * [Knight Probability in Chessboard](../recursion/KnightProbabilityInChess.java) - **(MEDIUM)**
 
+### _**Set 7:**_
+>**Time Taken:** 55 minutes 34 seconds
+>**Rank:** 91%
+* [Valid Mountain Array](../array/ValidMountainArray.java) - **(EASY)**
+* [Minimum Area Rectangle](../../../googledeck/others/MinimumAreaRectangle.java) - **(MEDIUM)**
+* [My Calendar II](../../../googledeck/others/MyCalendarII.java) - **(MEDIUM)**
+
+### _**Set 8:**_
+>**Time Taken:** 58 minutes 37 seconds
+>**Rank:** 72%
+* [Backspace String Compare](../../../googledeck/arraynstring/BackspaceStringCompare.java) - **(EASY)**
+* [Count Complete Tree Nodes](../../../googledeck/treesngrapsh/CountCompleteTreeNodes.java) - **(MEDIUM)**
+* [Longest Line of Consecutive One in Matrix](../array/LongestLineOfConsecutiveOne.java) - **(MEDIUM)**
+
 
 ## _**On-site Interview:**_ 
 (Upto 4 question, 2 Hours)

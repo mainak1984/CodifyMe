@@ -1,4 +1,4 @@
-package edu.codifyme.leetcode.practice.array;
+package edu.codifyme.leetcode.interview.mocktest.google.array;
 
 /**
  * MEDIUM: Longest Line of Consecutive One in Matrix
