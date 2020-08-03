@@ -112,3 +112,9 @@
 * [Maximum Level Sum of a Binary Tree](../tree/MaxLevelSumOfBinaryTree.java) - **(MEDIUM)**
 * [Odd Even Jump](../../../googledeck/intro/OddEvenJump.java) - **(HARD)**
 
+### _**Set 6:**_
+>**Time Taken:** 22 minutes 50 seconds 
+>**Rank:** 99%
+* [Perfect Square](../dp/PerfectSquares.java) - **(MEDIUM)**
+* [Binary Tree Coloring Game](../tree/BinaryTreeColoringGame.java) - **(MEDIUM)**
+* [Campus Bikes II](../dp/CampusBikesII.java) - **(MEDIUM)**
