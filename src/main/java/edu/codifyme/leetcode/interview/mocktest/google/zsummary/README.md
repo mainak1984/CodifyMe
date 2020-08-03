@@ -72,6 +72,18 @@
 * [Missing Ranges](../../../googledeck/arraynstring/MissingRanges.java) - **(MEDIUM)**
 * [Add Bold Tag in String](../array/LongestLineOfConsecutiveOne.java) - **(MEDIUM)**
 
+### _**Set 10:**_
+>**Time Taken:** 26 minutes 44 seconds
+>**Rank:** 91%
+* [Guess Number Higher or Lower](../tree/GuessNumberHigherorLower.java) - **(EASY)**
+* [Guess Number Higher or Lower II](../../../googledeck/arraynstring/MissingRanges.java) - **(MEDIUM)**
+
+### _**Set 11:**_
+>**Time Taken:** 25 minutes 59 seconds
+>**Rank:** 89%
+* [Strobogrammatic Number](../../../googledeck/others/StrobogrammaticNumber.java) - **(EASY)**
+* [Wiggle Sort](../../../googledeck/arraynstring/MissingRanges.java) - **(MEDIUM)**
+* [Design Phone Directory](../sortnsearch/DesignPhoneDirectory.java) - **(MEDIUM)**
 
 
 ## _**On-site Interview:**_ 
