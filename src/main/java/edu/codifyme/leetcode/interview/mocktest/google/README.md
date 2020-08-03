@@ -3,6 +3,7 @@
 ### _**Array:**_
 * [Minimum Domino Rotations For Equal Row](array/MinimumDominoRotationsForEqualRow.java) - **(MEDIUM)**
 * [Longest Line of Consecutive One in Matrix](array/LongestLineOfConsecutiveOne.java) - **(MEDIUM)**
+* [Sliding Puzzle](array/SlidingPuzzle.java) - **(HARD)**
 
 ### _**Dynamic Programming:**_
 * [Perfect Square](dp/PerfectSquares.java) - **(MEDIUM)**

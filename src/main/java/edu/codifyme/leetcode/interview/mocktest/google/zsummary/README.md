@@ -65,6 +65,14 @@
 * [Count Complete Tree Nodes](../../../googledeck/treesngrapsh/CountCompleteTreeNodes.java) - **(MEDIUM)**
 * [Longest Line of Consecutive One in Matrix](../array/LongestLineOfConsecutiveOne.java) - **(MEDIUM)**
 
+### _**Set 9:**_
+>**Time Taken:** 48 minutes 16 seconds
+>**Rank:** 72%
+* [Moving Average from Data Stream](../list/MovingAveragefromDataStream.java) - **(EASY)**
+* [Missing Ranges](../../../googledeck/arraynstring/MissingRanges.java) - **(MEDIUM)**
+* [Add Bold Tag in String](../array/LongestLineOfConsecutiveOne.java) - **(MEDIUM)**
+
+
 
 ## _**On-site Interview:**_ 
 (Upto 4 question, 2 Hours)
@@ -118,3 +126,10 @@
 * [Perfect Square](../dp/PerfectSquares.java) - **(MEDIUM)**
 * [Binary Tree Coloring Game](../tree/BinaryTreeColoringGame.java) - **(MEDIUM)**
 * [Campus Bikes II](../dp/CampusBikesII.java) - **(MEDIUM)**
+
+### _**Set 7:**_
+>**Time Taken:** 1 hour 12 minutes 
+>**Rank:** 80%
+* [Alphabet Board Path](../array/AlphabetBoardPath.java) - **(MEDIUM)**
+* [Shortest Distance to Target Color](../array/ShortestDistanceToTargetColor.java) - **(MEDIUM)**
+* [Sliding Puzzle](../array/SlidingPuzzle.java) - **(HARD)**
