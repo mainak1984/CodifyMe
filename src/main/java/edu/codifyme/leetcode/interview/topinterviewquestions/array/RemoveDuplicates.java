@@ -2,6 +2,7 @@ package edu.codifyme.leetcode.interview.topinterviewquestions.array;
 
 public class RemoveDuplicates {
     /** EASY Collection **/
+    /** Remove Duplicates from Sorted Array **/
     /** https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/ **/
     /**
     Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the

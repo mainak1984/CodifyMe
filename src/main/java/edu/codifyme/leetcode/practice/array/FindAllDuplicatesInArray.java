@@ -1,5 +1,8 @@
 package edu.codifyme.leetcode.practice.array;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * MEDIUM: Find All Duplicates in an Array
  * https://leetcode.com/problems/find-all-duplicates-in-an-array/

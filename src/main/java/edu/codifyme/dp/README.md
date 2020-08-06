@@ -105,7 +105,7 @@
 > * Init dp\[0]\[j] as _**Integer.MAX_VALUE**_, dp\[0]\[0] as _**0**_  
 > * Treat only array (Coin\[]) as Wt arr and target change as sum  
 > * Instead of Max, use _**MIN**_ on int returns  
-> * [Code Ref](../leetcode/interview/googledeck/dp/CoinChange.java)   
+> * [Code Ref](../leetcode/interview/google/dp/CoinChange.java)   
 
 #### 2.D. Minimum Ribbon Cut
 
