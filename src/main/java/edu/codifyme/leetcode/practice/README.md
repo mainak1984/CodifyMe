@@ -15,6 +15,9 @@
 * [Longest Valid Parenthesis](stacknqueue/LongestValidParenthesis.java) - **(HARD)**
 * [Increasing Order Search Tree](stacknqueue/IncreasingOrderSearchTree.java) - **(EASY)**
 
+### _**Tree:**_
+* [Path Sum III](tree/PathSumIII.java) - **(MEDIUM)** - Prefix Array
+
 ### _**Other:**_
 * [Wildcard Matching](others/WildcardMatching.java) - **(HARD)**
 * [Permutations](others/Permutations.java) - **(MEDIUM)**
