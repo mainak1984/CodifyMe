@@ -1,7 +1,8 @@
 package edu.codifyme.leetcode.interview.google.dp;
 
 /**
- * HARD:
+ * HARD: Split Array Largest Sum
+ * Editor's choice: Frequently asked in Google Phone Interview
  * https://leetcode.com/problems/split-array-largest-sum
  *
  * Given an array which consists of non-negative integers and an integer m, you can split the array into m non-empty

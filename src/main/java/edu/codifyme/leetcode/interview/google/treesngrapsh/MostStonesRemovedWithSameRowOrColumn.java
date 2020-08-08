@@ -6,7 +6,8 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * MEDIUM:
+ * MEDIUM: Most Stones Removed with Same Row or Column
+ * Editor's choice: Frequently asked in Google onsite Interview
  * https://leetcode.com/problems/most-stones-removed-with-same-row-or-column
  *
  * On a 2D plane, we place stones at some integer coordinate points.  Each coordinate point may have at most one stone.

@@ -22,6 +22,7 @@
 * [Minimum Cost to Hire K Workers](arraynstring/MinCostToHireKWorkers.java) - **(HARD)**
 * [Rotate Image](arraynstring/RotateImage.java) - **(MEDIUM)** - Rotate/Transpose
 * [Multiply Strings](arraynstring/MultiplyString.java) - **(MEDIUM)**
+* [Backspace String Compare](arraynstring/BackspaceStringCompare.java) - **(EASY)** - X Editor's choice
 
 ### _**Linked List:**_
 * [Remove Nth Node From End of List](list/RemoveNthNodeFromEnd.java) - **(MEDIUM)** - 2 pointer at n distance
@@ -31,12 +32,12 @@
 * [Binary Tree Maximum Path Sum](treesngrapsh/BinaryTreeMaxPathSum.java) - **(HARD)** - Longest path
 * [Word Ladder](treesngrapsh/WordLadder.java) - **(MEDIUM)** - graph construction with Adj. List
 * [Course Schedule II](treesngrapsh/CourseScheduleII.java) - **(MEDIUM)** - Topological sort
-* [Count Complete Tree Nodes](treesngrapsh/CountCompleteTreeNodes.java) - **(MEDIUM)** - Complete binary tree traversal
+* [Count Complete Tree Nodes](treesngrapsh/CountCompleteTreeNodes.java) - **(MEDIUM)** - Complete binary tree traversal - Editor's choice
 * [Longest Increasing Path in a Matrix](treesngrapsh/LongestIncreasingPathInMatrix.java) - **(HARD)** - Memoization
 * [Decode String](treesngrapsh/DecodeString.java) - **(MEDIUM)**
-* [Evaluate Division](treesngrapsh/EvaluateDivision.java) - **(MEDIUM)** - equation graph formation
-* [Robot Room Cleaner](treesngrapsh/RobotRoomCleaner.java) - **(HARD)** - Handling stateful DFS
-* [Most Stones Removed with Same Row or Column](treesngrapsh/MostStonesRemovedWithSameRowOrColumn.java) - **(MEDIUM)** - Union Find
+* [Evaluate Division](treesngrapsh/EvaluateDivision.java) - **(MEDIUM)** - equation graph formation - Editor's choice
+* [Robot Room Cleaner](treesngrapsh/RobotRoomCleaner.java) - **(HARD)** - Handling stateful DFS - Editor's choice
+* [Most Stones Removed with Same Row or Column](treesngrapsh/MostStonesRemovedWithSameRowOrColumn.java) - **(MEDIUM)** - Union Find - Editor's choice
 
 ### _**Recursion:**_
 * [Word Squares](recursion/WordSquares.java) - **(MEDIUM)**
@@ -53,13 +54,13 @@
 
 ### _**Dynamic Programming:**_
 * [Longest Palindromic Substring](dp/LongestPalindromicSubstring.java) - **(MEDIUM)**
-* [Best Time to Buy and Sell Stock](dp/BestTimeToBuyAndSellStock.java) - **(EASY)**
+* [Best Time to Buy and Sell Stock](dp/BestTimeToBuyAndSellStock.java) - **(EASY)** - Editor's choice (Facebook)
 * [Maximum Product Subarray](dp/MaximumProductSubarray.java) - **(MEDIUM)**
-* [Split Array Largest Sum](dp/SplitArrayLargestSum.java) - **(HARD)**
+* [Split Array Largest Sum](dp/SplitArrayLargestSum.java) - **(HARD)** - Editor's choice
 
 ### _**Design:**_
 * [Min Stack](design/MinStack.java) - **(EASY)**
-* [Serialize and Deserialize Binary Tree](design/SerializeDeserializeBinaryTree.java) - **(HARD)**
+* [Serialize and Deserialize Binary Tree](design/SerializeDeserializeBinaryTree.java) - **(HARD)** - Editor's choice (Facebook)
 * [Insert Delete GetRandom O(1)](design/InsertDeleteGetRandomInConstantTIme.java) - **(MEDIUM)**
 * [Design Search Autocomplete System](design/DesignSearchAutocompleteSystem.java) - **(HARD)**
 
@@ -68,7 +69,7 @@
 * [Range Sum Query 2D](others/RangeSumQuery2DMutable.java) - Mutable - Binary Index Tree - **(HARD)**
 * [My Calendar II](others/MyCalendarII.java) - **(MEDIUM)**
 * [Swap Adjacent in LR String](others/SwapAdjacentInLRString.java) - **(MEDIUM)**
-* [Guess the Word](others/GuessTheWord.java) - **(HARD)**
+* [Guess the Word](others/GuessTheWord.java) - **(HARD)** - Editor's choice
 * [Minimum Area Rectangle](others/MinimumAreaRectangle.java) - **(MEDIUM)**
 
 ### _**Top_50:**_

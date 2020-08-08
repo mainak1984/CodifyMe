@@ -1,7 +1,8 @@
 package edu.codifyme.leetcode.interview.google.treesngrapsh;
 
 /**
- * MEDIUM:
+ * MEDIUM: Count Complete Tree Nodes
+ * Editor's choice: Frequently asked in Google Phone Interview
  * https://leetcode.com/problems/count-complete-tree-nodes
  *
  * Given a complete binary tree, count the number of nodes.

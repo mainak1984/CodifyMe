@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /**
  * EASY: Backspace String Compare
+ * Editor's choice: Frequently asked in Google Phone Interview
  * https://leetcode.com/problems/backspace-string-compare
  *
  * Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.

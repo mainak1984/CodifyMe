@@ -6,7 +6,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * HARD:
+ * HARD: Robot Room Cleaner
+ * Editor's choice: Frequently asked in Google onsite Interview
  * https://leetcode.com/problems/robot-room-cleaner
  *
  * Given a robot cleaner in a room modeled as a grid.

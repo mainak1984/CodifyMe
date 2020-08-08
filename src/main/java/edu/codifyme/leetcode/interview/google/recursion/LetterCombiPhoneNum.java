@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 17. Letter Combinations of a Phone Number
- * EASY:
+ * EASY: 17. Letter Combinations of a Phone Number
+ * Editor's choice: Frequently asked in Facebook Phone and onsite Interview
  * https://leetcode.com/problems/letter-combinations-of-a-phone-number/
  *
  * Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could

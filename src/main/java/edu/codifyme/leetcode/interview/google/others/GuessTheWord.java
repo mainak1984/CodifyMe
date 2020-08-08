@@ -5,7 +5,8 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * HARD:
+ * HARD: Guess the Word
+ * Editor's choice: Frequently asked in Google onsite Interview
  * https://leetcode.com/problems/guess-the-word
  *
  * This problem is an interactive problem new to the LeetCode platform.
