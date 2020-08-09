@@ -5,8 +5,8 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/meeting-rooms-ii
+ * 253. Meeting Rooms II
+ * MEDIUM: https://leetcode.com/problems/meeting-rooms-ii
  *
  * Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...] (si < ei), find the
  * minimum number of conference rooms required.

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * EASY:
- * https://leetcode.com/problems/plus-one
+ * 66. Plus One
+ * EASY: https://leetcode.com/problems/plus-one
  *
  * Included in Mock set
  *

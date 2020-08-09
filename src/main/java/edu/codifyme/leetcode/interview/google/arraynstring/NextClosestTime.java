@@ -4,8 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/next-closest-time
+ * 681. Next Closest Time
+ * MEDIUM: https://leetcode.com/problems/next-closest-time
  *
  * Given a time represented in the format "HH:MM", form the next closest time by reusing the current digits. There is no
  * limit on how many times a digit can be reused.

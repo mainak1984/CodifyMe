@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.arraynstring;
 
 /**
- * EASY:
- * https://leetcode.com/problems/maximize-distance-to-closest-person
+ * 849. Maximize Distance to Closest Person
+ * EASY: https://leetcode.com/problems/maximize-distance-to-closest-person
  *
  * In a row of seats, 1 represents a person sitting in that seat, and 0 represents that the seat is empty.
  *

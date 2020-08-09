@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.interview.google.arraynstring;
 import java.util.HashMap;
 
 /**
- * HARD: Minimum Window Substring
- * https://leetcode.com/problems/minimum-window-substring
+ * 76. Minimum Window Substring
+ * HARD: https://leetcode.com/problems/minimum-window-substring
  *
  * Given a string S and a string T, find the minimum window in S which will contain all the characters in T in
  * complexity O(n).

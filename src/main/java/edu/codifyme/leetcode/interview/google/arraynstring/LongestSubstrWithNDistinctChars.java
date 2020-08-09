@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters
+ * 159. Longest Substring with At Most Two Distinct Characters
+ * MEDIUM: https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters
  *
  * Given a string s , find the length of the longest substring t  that contains at most 2 distinct characters.
  *

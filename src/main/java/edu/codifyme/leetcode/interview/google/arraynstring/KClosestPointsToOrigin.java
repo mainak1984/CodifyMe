@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.interview.google.arraynstring;
 import java.util.Arrays;
 
 /**
- * MEDIUM:
- * https://leetcode.com/explore/interview/card/google/59/array-and-strings/3062/
+ * 973. K Closest Points to Origin
+ * MEDIUM: https://leetcode.com/problems/k-closest-points-to-origin/
  *
  * We have a list of points on the plane.  Find the K closest points to the origin (0, 0).
  * (Here, the distance between two points on a plane is the Euclidean distance.)

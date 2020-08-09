@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.arraynstring;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/jump-game
+ * 55. Jump Game
+ * MEDIUM: https://leetcode.com/problems/jump-game
  *
  * Given an array of non-negative integers, you are initially positioned at the first index of the array.
  * Each element in the array represents your maximum jump length at that position.

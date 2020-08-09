@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/missing-ranges
+ * 163. Missing Ranges
+ * MEDIUM: https://leetcode.com/problems/missing-ranges
  *
  * Given a sorted integer array nums, where the range of elements are in the inclusive range [lower, upper], return its
  * missing ranges.

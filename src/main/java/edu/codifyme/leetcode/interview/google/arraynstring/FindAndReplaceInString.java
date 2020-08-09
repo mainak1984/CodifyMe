@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.interview.google.arraynstring;
 import java.util.Arrays;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/find-and-replace-in-string/
+ * 833. Find And Replace in String
+ * MEDIUM: https://leetcode.com/problems/find-and-replace-in-string/
  *
  * To some string S, we will perform some replacement operations that replace groups of letters with new ones (not
  * necessarily the same size).

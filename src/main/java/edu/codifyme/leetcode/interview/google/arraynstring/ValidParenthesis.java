@@ -1,20 +1,11 @@
 package edu.codifyme.leetcode.interview.google.arraynstring;
 
-/** Easy: https://leetcode.com/problems/valid-parentheses/ **/
-
 import java.util.Stack;
 
 /**
  * 20. Valid Parentheses
- * Easy
+ * Easy: https://leetcode.com/problems/valid-parentheses/
  *
- * 3732
- *
- * 183
- *
- * Favorite
- *
- * Share
  * Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
  *
  * An input string is valid if:

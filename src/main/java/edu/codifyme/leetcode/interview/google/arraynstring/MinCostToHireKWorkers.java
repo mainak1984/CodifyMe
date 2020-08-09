@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
- * HARD:
- * https://leetcode.com/problems/minimum-cost-to-hire-k-workers
+ * 857. Minimum Cost to Hire K Workers
+ * HARD: https://leetcode.com/problems/minimum-cost-to-hire-k-workers
  *
  * There are N workers.  The i-th worker has a quality[i] and a minimum wage expectation wage[i].
  * Now we want to hire exactly K workers to form a paid group.  When hiring a group of K workers, we must pay them

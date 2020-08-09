@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.arraynstring;
 
 /**
- * HARD
- * https://leetcode.com/problems/trapping-rain-water
+ * 42. Trapping Rain Water
+ * HARD: https://leetcode.com/problems/trapping-rain-water
  *
  * Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water
  * it is able to trap after raining.
