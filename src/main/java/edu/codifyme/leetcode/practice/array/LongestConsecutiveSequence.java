@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.practice.array;
 import java.util.HashSet;
 
 /**
- * HARD: Longest Consecutive Sequence
- * https://leetcode.com/problems/longest-consecutive-sequence/
+ * 128. Longest Consecutive Sequence
+ * HARD: https://leetcode.com/problems/longest-consecutive-sequence/
  *
  * Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
  * Your algorithm should run in O(n) complexity.

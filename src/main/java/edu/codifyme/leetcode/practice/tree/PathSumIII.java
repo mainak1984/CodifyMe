@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.practice.tree;
 import java.util.HashMap;
 
 /**
- * MEDIUM: Path Sum III
- * https://leetcode.com/problems/path-sum-iii
+ * 437. Path Sum III
+ * MEDIUM: https://leetcode.com/problems/path-sum-iii
  *
  * You are given a binary tree in which each node contains an integer value.
  * Find the number of paths that sum to a given value.

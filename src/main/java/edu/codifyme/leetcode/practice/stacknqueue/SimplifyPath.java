@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 /**
- * MEDIUM: Simplify Path
- * https://leetcode.com/problems/simplify-path/
+ * 71. Simplify Path
+ * MEDIUM:  https://leetcode.com/problems/simplify-path/
  *
  * Given an absolute path for a file (Unix-style), simplify it. Or in other words, convert it to the canonical path.
  * In a UNIX-style file system, a period . refers to the current directory. Furthermore, a double period .. moves the

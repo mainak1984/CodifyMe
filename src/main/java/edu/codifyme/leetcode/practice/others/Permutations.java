@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * MEDIUM: Permutations
- * https://leetcode.com/problems/permutations/
+ * 46. Permutations
+ * MEDIUM: https://leetcode.com/problems/permutations/
  *
  * Given a collection of distinct integers, return all possible permutations.
  *

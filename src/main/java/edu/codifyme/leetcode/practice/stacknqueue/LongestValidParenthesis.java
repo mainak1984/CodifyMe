@@ -2,9 +2,10 @@ package edu.codifyme.leetcode.practice.stacknqueue;
 
 import java.util.Stack;
 
-/** HARD: https://leetcode.com/problems/longest-valid-parentheses/submissions/ */
-
 /**
+ * 32. Longest Valid Parentheses
+ * HARD: https://leetcode.com/problems/longest-valid-parentheses/submissions/
+ *
  * Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed)
  * parentheses substring.
  *

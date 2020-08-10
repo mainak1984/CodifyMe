@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.practice.others;
 
 /**
  * 204. Count Primes
- * EASY:https://leetcode.com/problems/count-primes/
+ * EASY: https://leetcode.com/problems/count-primes/
  *
  * Count the number of prime numbers less than a non-negative number, n.
  *

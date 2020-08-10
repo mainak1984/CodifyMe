@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.practice.others;
 
 /**
- * HARD: Wildcard Matching
- * https://leetcode.com/problems/wildcard-matching
+ * 44. Wildcard Matching
+ * HARD: https://leetcode.com/problems/wildcard-matching
  *
  * Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*'.
  *
@@ -52,7 +52,8 @@ package edu.codifyme.leetcode.practice.others;
  * Solution:
  * For ? and matching character, move pointer for both string and pattern
  * For *, mark both sPos and pPos and move pattern
- * For any non matching char, if there exists a valid sPos, reset pattern index to sPos + 1, move pPos to saved pPos and increase pPos
+ * For any non matching char, if there exists a valid sPos, reset pattern index to sPos + 1, move pPos to saved pPos and
+ * increase pPos
  * For non matching char, if there is no previous *, return false
  */
 public class WildcardMatching {
