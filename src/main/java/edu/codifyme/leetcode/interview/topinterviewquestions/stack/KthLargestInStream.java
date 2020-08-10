@@ -1,11 +1,10 @@
 package edu.codifyme.leetcode.interview.topinterviewquestions.stack;
 
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * EASY:
- * 703. https://leetcode.com/problems/kth-largest-element-in-a-stream/
+ * 703. Kth Largest Element in a Stream
+ * EASY: https://leetcode.com/problems/kth-largest-element-in-a-stream/
  *
  * Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted
  * order, not the kth distinct element.

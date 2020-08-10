@@ -1,7 +1,7 @@
 package edu.codifyme.leetcode.interview.topinterviewquestions.tree;
 
 /**
- * Invert Binary Tree
+ * 226. Invert Binary Tree
  * EASY: https://leetcode.com/problems/invert-binary-tree/
  *
  * Invert a binary tree.
