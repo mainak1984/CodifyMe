@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.interview.google.ztopfifty;
 import java.util.*;
 
 /**
- * HARD:
- * https://leetcode.com/problems/brace-expansion-ii/
+ * 1096. Brace Expansion II
+ * HARD: https://leetcode.com/problems/brace-expansion-ii/
  *
  * Under a grammar given below, strings can represent a set of lowercase words.  Let's use R(expr) to denote the set of
  * words the expression represents.

@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.treesngrapsh;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/flip-equivalent-binary-trees
+ * 951. Flip Equivalent Binary Trees
+ * MEDIUM: https://leetcode.com/problems/flip-equivalent-binary-trees
  *
  * For a binary tree T, we can define a flip operation as follows: choose any node, and swap the left and right child
  * subtrees.

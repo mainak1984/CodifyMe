@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.ztopfifty;
 
 /**
- * HARD:
- * https://leetcode.com/problems/24-game/
+ * 679. 24 Game
+ * HARD: https://leetcode.com/problems/24-game/
  *
  * You have 4 cards each containing a number from 1 to 9. You need to judge whether they could operated through
  * *, /, +, -, (, ) to get the value of 24.

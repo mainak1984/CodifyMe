@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.interview.google.recursion;
 import java.util.*;
 
 /**
- * HARD:
- * https://leetcode.com/problems/word-squares
+ * 425. Word Squares
+ * HARD: https://leetcode.com/problems/word-squares
  *
  * Given a set of words (without duplicates), find all word squares you can build from them.
  * A sequence of words forms a valid word square if the kth row and column read the exact same string,

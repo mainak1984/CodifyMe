@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/delete-nodes-and-return-forest/
+ * 1110. Delete Nodes And Return Forest
+ * MEDIUM: https://leetcode.com/problems/delete-nodes-and-return-forest/
  *
  * Given the root of a binary tree, each node in the tree has a distinct value.
  * After deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).

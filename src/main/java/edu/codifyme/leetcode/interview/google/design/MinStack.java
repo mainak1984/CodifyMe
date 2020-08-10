@@ -3,9 +3,8 @@ package edu.codifyme.leetcode.interview.google.design;
 import java.util.Stack;
 
 /**
- * Min Stack
- * EASY:
- * https://leetcode.com/problems/min-stack/
+ * 155. Min Stack
+ * EASY: https://leetcode.com/problems/min-stack/
  *
  * Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
  *

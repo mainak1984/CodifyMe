@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.ztopfifty;
 
 /**
- * EASY:
- * https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/
+ * 1170. Compare Strings by Frequency of the Smallest Character
+ * EASY: https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/
  *
  * Let's define a function f(s) over a non-empty string s, which calculates the frequency of the smallest character in
  * s. For example, if s = "dcce" then f(s) = 2 because the smallest character is "c" and its frequency is 2.

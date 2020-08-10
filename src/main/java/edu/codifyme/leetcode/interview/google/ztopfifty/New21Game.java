@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.ztopfifty;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/new-21-game/
+ * 837. New 21 Game
+ * MEDIUM: https://leetcode.com/problems/new-21-game/
  *
  * Alice plays the following game, loosely based on the card game "21".
  *

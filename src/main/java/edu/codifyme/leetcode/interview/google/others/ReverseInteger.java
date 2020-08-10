@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.others;
 
 /**
- * EASY:
- * https://leetcode.com/problems/reverse-integer
+ * 7. Reverse Integer
+ * EASY: https://leetcode.com/problems/reverse-integer
  *
  * Given a 32-bit signed integer, reverse digits of an integer.
  *

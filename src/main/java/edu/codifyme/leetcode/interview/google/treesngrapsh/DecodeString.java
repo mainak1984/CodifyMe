@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.treesngrapsh;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/decode-string
+ * 394. Decode String
+ * MEDIUM: https://leetcode.com/problems/decode-string
  *
  * Given an encoded string, return its decoded string.
  * The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly

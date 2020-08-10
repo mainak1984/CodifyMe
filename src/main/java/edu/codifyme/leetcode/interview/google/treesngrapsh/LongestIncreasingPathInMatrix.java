@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.treesngrapsh;
 
 /**
- * HARD:
- * https://leetcode.com/problems/longest-increasing-path-in-a-matrix
+ * 329. Longest Increasing Path in a Matrix
+ * HARD: https://leetcode.com/problems/longest-increasing-path-in-a-matrix
  *
  * Given an integer matrix, find the length of the longest increasing path.
  * From each cell, you can either move to four directions: left, right, up or down. You may NOT move diagonally or move

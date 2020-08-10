@@ -5,8 +5,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/open-the-lock/
+ * 752. Open the Lock
+ * MEDIUM: https://leetcode.com/problems/open-the-lock/
  *
  * You have a lock in front of you with 4 circular wheels. Each wheel has 10 slots: '0', '1', '2', '3', '4', '5', '6',
  * '7', '8', '9'. The wheels can rotate freely and wrap around: for example we can turn '9' to be '0', or '0' to be

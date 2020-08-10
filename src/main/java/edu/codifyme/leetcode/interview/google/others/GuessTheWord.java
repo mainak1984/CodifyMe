@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * HARD: Guess the Word
+ * 843. Guess the Word
+ * HARD: https://leetcode.com/problems/guess-the-word
  * Editor's choice: Frequently asked in Google onsite Interview
- * https://leetcode.com/problems/guess-the-word
  *
  * This problem is an interactive problem new to the LeetCode platform.
  * We are given a word list of unique words, each word is 6 letters long, and one word in this list is chosen as secret.

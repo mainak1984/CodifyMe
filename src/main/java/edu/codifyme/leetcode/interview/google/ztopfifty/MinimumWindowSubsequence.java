@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.ztopfifty;
 
 /**
- * HARD:
- * https://leetcode.com/problems/minimum-window-subsequence/
+ * 727. Minimum Window Subsequence
+ * HARD: https://leetcode.com/problems/minimum-window-subsequence/
  *
  * Given strings S and T, find the minimum (contiguous) substring W of S, so that T is a subsequence of W.
  * If there is no such window in S that covers all characters in T, return the empty string "". If there are multiple

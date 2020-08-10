@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.interview.google.design;
 import java.util.*;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/insert-delete-getrandom-o1
+ * 380. Insert Delete GetRandom O(1)
+ * MEDIUM: https://leetcode.com/problems/insert-delete-getrandom-o1
  *
  * Design a data structure that supports all following operations in average O(1) time.
  *

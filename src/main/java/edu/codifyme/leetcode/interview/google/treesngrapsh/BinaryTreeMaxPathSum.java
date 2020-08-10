@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.treesngrapsh;
 
 /**
- * HARD:
- * https://leetcode.com/problems/binary-tree-maximum-path-sum
+ * 124. Binary Tree Maximum Path Sum
+ * HARD: https://leetcode.com/problems/binary-tree-maximum-path-sum
  *
  * Given a non-empty binary tree, find the maximum path sum.
  * For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along

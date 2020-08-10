@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.intro;
 
 /**
- * EASY:
- * https://leetcode.com/problems/license-key-formatting
+ * 482. License Key Formatting
+ * EASY: https://leetcode.com/problems/license-key-formatting
  *
  * You are given a license key represented as a string S which consists only alphanumeric character and dashes. The string is separated into N+1 groups by N dashes.
  *

@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.interview.google.ztopfifty;
 import java.util.Stack;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/validate-stack-sequences/
+ * 946. Validate Stack Sequences
+ * MEDIUM: https://leetcode.com/problems/validate-stack-sequences/
  *
  * Given two sequences pushed and popped with distinct values, return true if and only if this could have been the
  * result of a sequence of push and pop operations on an initially empty stack.

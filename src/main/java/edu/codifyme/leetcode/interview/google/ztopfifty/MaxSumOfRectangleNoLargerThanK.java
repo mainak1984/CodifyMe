@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.ztopfifty;
 
 /**
- * HARD:
- * https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
+ * 363. Max Sum of Rectangle No Larger Than K
+ * HARD: https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
  *
  * Given a non-empty 2D matrix matrix and an integer k, find the max sum of a rectangle in the matrix such that its sum
  * is no larger than k.

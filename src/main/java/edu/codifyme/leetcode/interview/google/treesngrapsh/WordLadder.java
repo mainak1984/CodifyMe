@@ -5,8 +5,8 @@ import javafx.util.Pair;
 import java.util.*;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/word-ladder
+ * 127. Word Ladder
+ * MEDIUM: https://leetcode.com/problems/word-ladder
  *
  * Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation
  * sequence from beginWord to endWord, such that:

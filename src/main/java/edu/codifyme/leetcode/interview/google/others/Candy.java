@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.interview.google.others;
 import java.util.Arrays;
 
 /**
- * HARD:
- * https://leetcode.com/problems/candy
+ * 135. Candy
+ * HARD: https://leetcode.com/problems/candy
  *
  * There are N children standing in a line. Each child is assigned a rating value.
  * You are giving candies to these children subjected to the following requirements:

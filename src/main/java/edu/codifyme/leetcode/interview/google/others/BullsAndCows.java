@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.interview.google.others;
 
 /**
- * EASY:
- * https://leetcode.com/problems/bulls-and-cows
+ * 299. Bulls and Cows
+ * EASY: https://leetcode.com/problems/bulls-and-cows
  *
  * You are playing the following Bulls and Cows game with your friend: You write down a number and ask your friend to
  * guess what the number is. Each time your friend makes a guess, you provide a hint that indicates how many digits in

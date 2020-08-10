@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * HARD:
- * https://leetcode.com/problems/optimal-account-balancing/
+ * 465. Optimal Account Balancing
+ * HARD: https://leetcode.com/problems/optimal-account-balancing/
  *
  * A group of friends went on holiday and sometimes lent each other money. For example, Alice paid for Bill's lunch for
  * $10. Then later Chris gave Alice $5 for a taxi ride. We can model each transaction as a tuple (x, y, z) which means

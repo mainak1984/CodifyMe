@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * HARD:
- * https://leetcode.com/problems/confusing-number-ii/
+ * 1088. Confusing Number II
+ * HARD: https://leetcode.com/problems/confusing-number-ii/
  *
  * We can rotate digits by 180 degrees to form new digits. When 0, 1, 6, 8, 9 are rotated 180 degrees, they become
  * 0, 1, 9, 8, 6 respectively. When 2, 3, 4, 5 and 7 are rotated 180 degrees, they become invalid.

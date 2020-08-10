@@ -6,9 +6,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * HARD: Robot Room Cleaner
+ * 489. Robot Room Cleaner
+ * HARD: https://leetcode.com/problems/robot-room-cleaner
  * Editor's choice: Frequently asked in Google onsite Interview
- * https://leetcode.com/problems/robot-room-cleaner
  *
  * Given a robot cleaner in a room modeled as a grid.
  * Each cell in the grid can be empty or blocked.

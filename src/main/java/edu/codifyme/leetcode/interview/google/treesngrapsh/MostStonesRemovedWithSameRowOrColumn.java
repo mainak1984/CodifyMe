@@ -6,9 +6,9 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * MEDIUM: Most Stones Removed with Same Row or Column
+ * 947. Most Stones Removed with Same Row or Column
+ * MEDIUM: https://leetcode.com/problems/most-stones-removed-with-same-row-or-column
  * Editor's choice: Frequently asked in Google onsite Interview
- * https://leetcode.com/problems/most-stones-removed-with-same-row-or-column
  *
  * On a 2D plane, we place stones at some integer coordinate points.  Each coordinate point may have at most one stone.
  * Now, a move consists of removing a stone that shares a column or row with another stone on the grid.

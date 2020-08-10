@@ -5,8 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/strobogrammatic-number-ii
+ * 247. Strobogrammatic Number II
+ * MEDIUM: https://leetcode.com/problems/strobogrammatic-number-ii
  *
  * A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down).
  * Find all strobogrammatic numbers that are of length = n.
