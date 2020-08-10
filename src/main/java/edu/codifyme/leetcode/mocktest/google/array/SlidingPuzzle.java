@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.mocktest.google.array;
 import java.util.*;
 
 /**
- * HARD: Sliding Puzzle
- * https://leetcode.com/problems/sliding-puzzle/
+ * 773. Sliding Puzzle
+ * HARD: https://leetcode.com/problems/sliding-puzzle/
  *
  * On a 2x3 board, there are 5 tiles represented by the integers 1 through 5, and an empty square represented by 0.
  *

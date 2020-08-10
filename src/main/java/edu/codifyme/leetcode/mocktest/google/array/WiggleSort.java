@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.mocktest.google.array;
 import java.util.Arrays;
 
 /**
- * MEDIUM: Wiggle Sort
- * https://leetcode.com/problems/wiggle-sort/
+ * 280. Wiggle Sort
+ * MEDIUM: https://leetcode.com/problems/wiggle-sort/
  *
  * Given an unsorted array nums, reorder it in-place such that nums[0] <= nums[1] >= nums[2] <= nums[3]....
  *

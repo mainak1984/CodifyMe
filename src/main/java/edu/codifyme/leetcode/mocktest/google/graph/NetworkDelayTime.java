@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.mocktest.google.graph;
 import java.util.*;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/network-delay-time/
+ * 743. Network Delay Time
+ * MEDIUM: https://leetcode.com/problems/network-delay-time/
  *
  * There are N network nodes, labelled 1 to N.
  *

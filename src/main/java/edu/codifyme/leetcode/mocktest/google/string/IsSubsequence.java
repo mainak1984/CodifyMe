@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.mocktest.google.string;
 
 /**
- * EASY: Is Subsequence
- * https://leetcode.com/problems/is-subsequence/
+ * 392. Is Subsequence
+ * EASY: https://leetcode.com/problems/is-subsequence/
  *
  * Given a string s and a string t, check if s is subsequence of t.
  *

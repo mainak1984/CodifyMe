@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.mocktest.google.string;
 
 /**
- * EASY: Isomorphic Strings
- * https://leetcode.com/problems/isomorphic-strings/
+ * 205. Isomorphic Strings
+ * EASY: https://leetcode.com/problems/isomorphic-strings/
  *
  * Given two strings s and t, determine if they are isomorphic.
  *

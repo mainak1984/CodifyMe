@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.mocktest.google.array;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
+ * 1007. Minimum Domino Rotations For Equal Row
+ * MEDIUM: https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
  *
  * In a row of dominoes, A[i] and B[i] represent the top and bottom halves of the i-th domino.  (A domino is a tile
  * with two numbers from 1 to 6 - one on each half of the tile.)

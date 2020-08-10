@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.mocktest.google.array;
 
 /**
- * EASY: Robot Return to Origin
- * https://leetcode.com/problems/robot-return-to-origin/
+ * 657. Robot Return to Origin
+ * EASY: https://leetcode.com/problems/robot-return-to-origin/
  *
  * There is a robot starting at position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this
  * robot ends up at (0, 0) after it completes its moves.

@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * EASY: Moving Average from Data Stream
- * https://leetcode.com/problems/moving-average-from-data-stream/
+ * 346. Moving Average from Data Stream
+ * EASY: https://leetcode.com/problems/moving-average-from-data-stream/
  *
  * Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window.
  *

@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * HARD: Stream of Characters
- * https://leetcode.com/problems/stream-of-characters/
+ * 1032. Stream of Characters
+ * HARD: https://leetcode.com/problems/stream-of-characters/
  *
  * Implement the StreamChecker class as follows:
  *

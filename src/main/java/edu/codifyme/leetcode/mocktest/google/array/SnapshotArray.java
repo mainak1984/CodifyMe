@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.mocktest.google.array;
 import java.util.*;
 
 /**
- * MEDIUM:
- * https://leetcode.com/problems/snapshot-array
+ * 1146. Snapshot Array
+ * MEDIUM: https://leetcode.com/problems/snapshot-array
  *
  * Implement a SnapshotArray that supports the following interface:
  *

@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.mocktest.google.recursion;
 import java.util.Arrays;
 
 /**
- * MEDIUM: Brace Expansion
- * https://leetcode.com/problems/brace-expansion/
+ * 1087. Brace Expansion
+ * MEDIUM: https://leetcode.com/problems/brace-expansion/
  *
  * A string S represents a list of words.
  *

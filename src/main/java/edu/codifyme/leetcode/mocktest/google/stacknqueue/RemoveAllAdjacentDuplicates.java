@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.mocktest.google.stacknqueue;
 
 /**
- * EASY: Remove All Adjacent Duplicates In String
- * https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+ * 1047. Remove All Adjacent Duplicates In String
+ * EASY: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
  *
  * Given a string S of lowercase letters, a duplicate removal consists of choosing two adjacent and equal letters, and
  * removing them. We repeatedly make duplicate removals on S until we no longer can.

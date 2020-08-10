@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.mocktest.google.string;
 import java.util.Arrays;
 
 /**
- * MEDIUM: Add Bold Tag in String
- * https://leetcode.com/problems/add-bold-tag-in-string/
+ * 616. Add Bold Tag in String
+ * MEDIUM: https://leetcode.com/problems/add-bold-tag-in-string/
  *
  * Given a string s and a list of strings dict, you need to add a closed pair of bold tag <b> and </b> to wrap the
  * substrings in s that exist in dict. If two such substrings overlap, you need to wrap them together by only one pair

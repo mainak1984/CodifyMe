@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.mocktest.google.others;
 import java.util.Map;
 
 /**
- * EASY: Confusing Number
- * https://leetcode.com/problems/confusing-number/
+ * 1056. Confusing Number
+ * EASY: https://leetcode.com/problems/confusing-number/
  *
  * Given a number N, return true if and only if it is a confusing number, which satisfies the following condition:
  *

@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.mocktest.google.dp;
 import java.util.Arrays;
 
 /**
- * MEDIUM: Campus Bikes II
- * https://leetcode.com/problems/campus-bikes-ii/
+ * 1066. Campus Bikes II
+ * MEDIUM: https://leetcode.com/problems/campus-bikes-ii/
  *
  * On a campus represented as a 2D grid, there are N workers and M bikes, with N <= M. Each worker and bike is a 2D
  * coordinate on this grid.

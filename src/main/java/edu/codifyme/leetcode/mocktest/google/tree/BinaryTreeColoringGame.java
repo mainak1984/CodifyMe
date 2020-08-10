@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.mocktest.google.tree;
 
 /**
- * MEDIUM: Binary Tree Coloring Game
- * https://leetcode.com/problems/binary-tree-coloring-game/
+ * 1145. Binary Tree Coloring Game
+ * MEDIUM: https://leetcode.com/problems/binary-tree-coloring-game/
  *
  * Two players play a turn based game on a binary tree.  We are given the root of this binary tree, and the number of
  * nodes n in the tree.  n is odd, and each node has a distinct value from 1 to n.

@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * MEDIUM: Maximum Level Sum of a Binary Tree
- * https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
+ * 1161. Maximum Level Sum of a Binary Tree
+ * MEDIUM: https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/
  *
  * Given the root of a binary tree, the level of its root is 1, the level of its children is 2, and so on.
  * Return the smallest level X such that the sum of all the values of nodes at level X is maximal.

@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.mocktest.google.graph;
 import java.util.*;
 
 /**
- * MEDIUM: All Paths from Source Lead to Destination
- * https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
+ * 1059. All Paths from Source Lead to Destination
+ * MEDIUM: https://leetcode.com/problems/all-paths-from-source-lead-to-destination/
  *
  * Given the edges of a directed graph, and two nodes source and destination of this graph, determine whether or not all
  * paths starting from source eventually end at destination, that is:

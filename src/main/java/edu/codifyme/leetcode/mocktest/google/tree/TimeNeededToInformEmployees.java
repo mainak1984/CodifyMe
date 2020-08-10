@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.mocktest.google.tree;
 
 /**
- * MEDIUM: Time Needed to Inform All Employees
- * https://leetcode.com/problems/time-needed-to-inform-all-employees/
+ * 1376. Time Needed to Inform All Employees
+ * MEDIUM: https://leetcode.com/problems/time-needed-to-inform-all-employees/
  *
  * A company has n employees with a unique ID for each employee from 0 to n - 1. The head of the company has is the one
  * with headID.

@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.mocktest.google.string;
 
 /**
- * EASY: Single-Row Keyboard
- * https://leetcode.com/problems/single-row-keyboard/
+ * 1165. Single-Row Keyboard
+ * EASY: https://leetcode.com/problems/single-row-keyboard/
  *
  * There is a special keyboard with all keys in a single row.
  *

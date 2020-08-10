@@ -3,8 +3,8 @@ package edu.codifyme.leetcode.mocktest.google.recursion;
 import java.util.Set;
 
 /**
- * MEDIUM: Knight Probability in Chessboard
- * https://leetcode.com/problems/knight-probability-in-chessboard/
+ * 688. Knight Probability in Chessboard
+ * MEDIUM: https://leetcode.com/problems/knight-probability-in-chessboard/
  *
  * On an NxN chessboard, a knight starts at the r-th row and c-th column and attempts to make exactly K moves. The rows
  * and columns are 0 indexed, so the top-left square is (0, 0), and the bottom-right square is (N-1, N-1).

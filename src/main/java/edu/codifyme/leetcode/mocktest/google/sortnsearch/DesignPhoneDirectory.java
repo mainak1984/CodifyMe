@@ -4,8 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * MEDIUM: Design Phone Directory
- * https://leetcode.com/problems/design-phone-directory/
+ * 379. Design Phone Directory
+ * MEDIUM: https://leetcode.com/problems/design-phone-directory/
  *
  * Design a Phone Directory which supports the following operations:
  *

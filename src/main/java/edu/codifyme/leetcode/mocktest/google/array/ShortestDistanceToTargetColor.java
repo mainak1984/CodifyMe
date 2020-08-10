@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * MEDIUM: Shortest Distance to Target Color
- * https://leetcode.com/problems/shortest-distance-to-target-color/
+ * 1182. Shortest Distance to Target Color
+ * MEDIUM: https://leetcode.com/problems/shortest-distance-to-target-color/
  *
  * You are given an array colors, in which there are three colors: 1, 2 and 3.
  *

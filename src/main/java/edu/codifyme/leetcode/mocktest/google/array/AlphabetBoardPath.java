@@ -1,8 +1,8 @@
 package edu.codifyme.leetcode.mocktest.google.array;
 
 /**
- * MEDIUM: Alphabet Board Path
- * https://leetcode.com/problems/alphabet-board-path/
+ * 1138. Alphabet Board Path
+ * MEDIUM: https://leetcode.com/problems/alphabet-board-path/
  *
  * On an alphabet board, we start at position (0, 0), corresponding to character board[0][0].
  *
