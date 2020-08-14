@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.practice.string;
 
 /**
  * 171. Excel Sheet Column Number
- * EASY: Excel Sheet Column Number
+ * EASY: https://leetcode.com/problems/excel-sheet-column-number/
  *
  * Given a column title as appear in an Excel sheet, return its corresponding column number.
  *
