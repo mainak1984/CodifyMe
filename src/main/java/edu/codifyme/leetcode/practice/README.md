@@ -4,9 +4,11 @@
 * [Three Sum closest](array/ThreeSumClosest.java) - **(MEDIUM)** - Variation of 3 pointer approach
 * [Longest Consecutive Sequence](array/LongestConsecutiveSequence.java) - **(HARD)**
 * [Contains Duplicate III](array/ContainsDuplicateIII.java) - **(MEDIUM)**
+* [Find Permutation](array/FindPermutation.java) - **(MEDIUM)**
 
 ### _**DP:**_
 * [Target Sum](dp/TargetSum.java) - **(MEDIUM)** - Variation of 0/1 Knapsack
+* [Best Time to Buy and Sell Stock III](dp/BestTimeToBuyAndSellStockIII.java) - **(HARD)**
 
 ### _**Greedy:**_
 * [Gas Station](greedy/GasStation.java) - **(MEDIUM)**
