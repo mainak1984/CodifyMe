@@ -13,6 +13,9 @@
 ### _**Greedy:**_
 * [Gas Station](greedy/GasStation.java) - **(MEDIUM)**
 
+### _**Recursion:**_
+* [The Maze](recursion/TheMaze.java) - **(MEDIUM)**
+
 ### _**Stack And Queue:**_
 * [Longest Valid Parenthesis](stacknqueue/LongestValidParenthesis.java) - **(HARD)**
 * [Increasing Order Search Tree](stacknqueue/IncreasingOrderSearchTree.java) - **(EASY)**
