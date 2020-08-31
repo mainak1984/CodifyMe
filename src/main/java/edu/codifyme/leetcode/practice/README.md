@@ -10,6 +10,9 @@
 * [Target Sum](dp/TargetSum.java) - **(MEDIUM)** - Variation of 0/1 Knapsack
 * [Best Time to Buy and Sell Stock III](dp/BestTimeToBuyAndSellStockIII.java) - **(HARD)**
 
+### _**Graph:**_
+* [Largest Component Size by Common Factor](graph/LargestComponentSizeByCommonFactor.java) - **(HARD)** - Application of Union find
+
 ### _**Greedy:**_
 * [Gas Station](greedy/GasStation.java) - **(MEDIUM)**
 

@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 969. Pancake Sorting
- * https://leetcode.com/problems/pancake-sorting/
+ * MEDIUM: https://leetcode.com/problems/pancake-sorting/
  *
  * Given an array of integers A, We need to sort the array performing a series of pancake flips.
  *
