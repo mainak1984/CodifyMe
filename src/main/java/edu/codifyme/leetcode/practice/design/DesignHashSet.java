@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.practice.design;
 
 /**
  * 705. Design HashSet
- * https://leetcode.com/problems/design-hashset/
+ * EASY: https://leetcode.com/problems/design-hashset/
  *
  * Design a HashSet without using any built-in hash table libraries.
  *

@@ -52,7 +52,7 @@ public class LongestPalindrome {
         int[] chars = new int[128];
         char[] t = s.toCharArray();
         for(char c : t){
-            chars[c]++;HIn
+            chars[c]++;
         }
         int single = 0;
         for(int n : chars){
