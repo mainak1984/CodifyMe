@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.practice.string;
 
 /**
  * 824. Goat Latin
- * https://leetcode.com/problems/goat-latin/
+ * EASY: https://leetcode.com/problems/goat-latin/
  *
  * A sentence S is given, composed of words separated by spaces. Each word consists of lowercase and uppercase letters
  * only.

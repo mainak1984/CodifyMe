@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.practice.recursion;
 
 /**
  * 490. The Maze
- * https://leetcode.com/problems/the-maze/
+ * MEDIUM: https://leetcode.com/problems/the-maze/
  *
  * There is a ball in a maze with empty spaces and walls. The ball can go through empty spaces by rolling up, down, left
  * or right, but it won't stop rolling until hitting a wall. When the ball stops, it could choose the next direction.
