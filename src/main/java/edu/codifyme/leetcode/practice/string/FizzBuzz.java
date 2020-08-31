@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 412: Fizz Buzz
- * https://leetcode.com/problems/fizz-buzz/
+ * EASY: https://leetcode.com/problems/fizz-buzz/
  *
  * Write a program that outputs the string representation of numbers from 1 to n.
  *
