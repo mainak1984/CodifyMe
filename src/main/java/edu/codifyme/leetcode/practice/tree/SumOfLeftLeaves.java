@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.practice.tree;
 
 /**
  * 404. Sum of Left Leaves
- * https://leetcode.com/problems/sum-of-left-leaves/
+ * EASY: https://leetcode.com/problems/sum-of-left-leaves/
  *
  * Find the sum of all left leaves in a given binary tree.
  *
