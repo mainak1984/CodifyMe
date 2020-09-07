@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.practice.array;
 
 /**
  * 835. Image Overlap
- * https://leetcode.com/problems/image-overlap/
+ * MEDIUM: https://leetcode.com/problems/image-overlap/
  *
  * Two images A and B are given, represented as binary, square matrices of the same size.  (A binary matrix has only 0s
  * and 1s as values.)

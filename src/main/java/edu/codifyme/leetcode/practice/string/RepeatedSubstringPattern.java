@@ -2,7 +2,7 @@ package edu.codifyme.leetcode.practice.string;
 
 /**
  * 459. Repeated Substring Pattern
- * https://leetcode.com/problems/repeated-substring-pattern/
+ * EASY: https://leetcode.com/problems/repeated-substring-pattern/
  *
  * Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of
  * the substring together. You may assume the given string consists of lowercase English letters only and its length
