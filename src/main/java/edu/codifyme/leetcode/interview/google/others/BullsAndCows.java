@@ -24,6 +24,43 @@ package edu.codifyme.leetcode.interview.google.others;
  * Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
  * Note: You may assume that the secret number and your friend's guess only contain digits, and their lengths are always
  * equal.
+ *
+ * Approach 1: HashMap: Two Passes
+ * Algorithm
+ * Initialize the number of bulls and cows to zero.
+ * Initialize the hashmap character -> its frequency for the string secret. This hashmap could be later used during the
+ * iteration over the string guess to keep the available characters.
+ * It's time to iterate over the string guess.
+ *      - If the current character ch of the string guess is in the string secret: if ch in h, then there could be two
+ *      situations.
+ *          $ The corresponding characters of two strings match: ch == secret[idx].
+ *          $ Then it's time to update the bulls: bulls += 1.
+ *          $ The update of the cows is needed if the count for the current character in the hashmap is negative or
+ *          equal to zero. That means that before it was already used for cows, and the cows counter should be
+ *          decreased: cows -= int(h[ch] <= 0).
+ *      - The corresponding characters of two strings don't match: ch != secret[idx]. Then increase the cows counter:
+ *      cows += int(h[ch] > 0).
+ *      - In both cases, one has to update hashmap, marking the current character as used: h[ch] -= 1.
+ * Return the number of bulls and cows.
+ *
+ * Approach 2: One Pass
+ * Intuition
+ * Let's optimize approach 1 by building the hashmap during the strings' parsing. That would allow us to reduce the
+ * number of passes to one.
+ *
+ * Algorithm
+ * Initialize the number of bulls and cows to zero.
+ * Initialize the hashmap to count characters. During the iteration, secret string gives a positive contribution, and
+ * guess - negative contribution.
+ * Iterate over the strings: s is the current character in the string secret and g - the current character in the
+ * string guess.
+ *      - If s == g, update bulls counter: bulls += 1.
+ *      - Otherwise, if s != g:
+ *          $ Update cows by adding 1 if so far guess contains more s characters than secret: h[s] < 0.
+ *          $ Update cows by adding 1 if so far secret contains more g characters than guess: h[g] > 0.
+ *          $ Update the hashmap by marking the presence of s character in the string secret: h[s] += 1.
+ *          $ Update the hashmap by marking the presence of g character in the string guess: h[g] -= 1.
+ *      - Return the number of bulls and cows.
  */
 public class BullsAndCows {
     public String getHint(String secret, String guess) {
