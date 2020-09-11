@@ -16,6 +16,25 @@ package edu.codifyme.leetcode.interview.google.dp;
  * Input: [-2,0,-1]
  * Output: 0
  * Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
+ *
+ * Approach 2: Dynamic Programming
+ * While going through numbers in nums, we will have to keep track of the maximum product up to that number (we will
+ * call max_so_far) and minimum product up to that number (we will call min_so_far). The reason behind keeping track of
+ * max_so_far is to keep track of the accumulated product of positive numbers. The reason behind keeping track of
+ * min_so_far is to properly handle negative numbers.
+ *
+ * max_so_far is updated by taking the maximum value among:
+ *
+ * Current number.
+ * This value will be picked if the accumulated product has been really bad (even compared to the current number). This
+ * can happen when the current number has a preceding zero (e.g. [0,4]) or is preceded by a single negative number (e.g.
+ * [-3,5]).
+ * Product of last max_so_far and current number.
+ * This value will be picked if the accumulated product has been steadily increasing (all positive numbers).
+ * Product of last min_so_far and current number.
+ * This value will be picked if the current number is a negative number and the combo chain has been disrupted by a
+ * single negative number before (In a sense, this value is like an antidote to an already poisoned combo chain).
+ * min_so_far is updated in using the same three numbers except that we are taking minimum among the above three numbers.
  */
 public class MaximumProductSubarray {
     /**

@@ -11,7 +11,7 @@ package edu.codifyme.leetcode.interview.google.others;
  * eventually derive the secret number.
  * Write a function to return a hint according to the secret number and friend's guess, use A to indicate the bulls and
  * B to indicate the cows.
- * Please note that both secret number and friend's guess may contain duplicate digits.
+ * Please note thatMaximum Product Subarray both secret number and friend's guess may contain duplicate digits.
  *
  * Example 1:
  * Input: secret = "1807", guess = "7810"
