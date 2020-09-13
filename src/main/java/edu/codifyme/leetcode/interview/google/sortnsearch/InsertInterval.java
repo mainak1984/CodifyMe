@@ -18,6 +18,14 @@ import java.util.List;
  * Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
  * Output: [[1,2],[3,10],[12,16]]
  * Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
+ *
+ * Approach 1: Greedy.
+ * Here is the algorithm :
+ *      - Add to the output all the intervals starting before newInterval.
+ *      - Add to the output newInterval. Merge it with the last added interval if newInterval starts before the last
+ *      added interval.
+ *      - Add the next intervals one by one. Merge with the last added interval if the current interval starts before
+ *      the last added interval.
  */
 public class InsertInterval {
     public int[][] insert(int[][] intervals, int[] newInterval) {
