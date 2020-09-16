@@ -60,7 +60,7 @@ public class HouseRobber {
 //            twoBack = oneBack;
 //            oneBack = current;
 //        }
-//
+////            max = Math.max(max, current);
 //        return max;
 //    }
 }
