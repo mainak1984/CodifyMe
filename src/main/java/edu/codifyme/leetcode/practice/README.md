@@ -18,6 +18,7 @@
 
 ### _**Recursion:**_
 * [The Maze](recursion/TheMaze.java) - **(MEDIUM)**
+* [Sequential Digits](recursion/SequentialDigits.java) - **(MEDIUM)**
 
 ### _**Stack And Queue:**_
 * [Longest Valid Parenthesis](stacknqueue/LongestValidParenthesis.java) - **(HARD)**
