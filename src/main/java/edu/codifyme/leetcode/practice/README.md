@@ -6,6 +6,7 @@
 * [Contains Duplicate III](array/ContainsDuplicateIII.java) - **(MEDIUM)**
 * [Find Permutation](array/FindPermutation.java) - **(MEDIUM)**
 * [Subarray Product Less Than K](array/SubarrayProductLessThanK.java) - **(MEDIUM)**
+* [First Missing Positive](array/FirstMissingPositive.java) - **(HARD)**
 
 ### _**DP:**_
 * [Target Sum](dp/TargetSum.java) - **(MEDIUM)** - Variation of 0/1 Knapsack
