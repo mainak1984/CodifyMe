@@ -27,6 +27,7 @@
 ### _**Stack And Queue:**_
 * [Longest Valid Parenthesis](stacknqueue/LongestValidParenthesis.java) - **(HARD)**
 * [Increasing Order Search Tree](stacknqueue/IncreasingOrderSearchTree.java) - **(EASY)**
+* [Remove Duplicate Letters](stacknqueue/RemoveDuplicateLetters.java) - **(MEDIUM)**
 
 ### _**Search and Sort:**_
 * [Pancake Sorting](searchnsort/PancakeSorting.java) - **(MEDIUM)**

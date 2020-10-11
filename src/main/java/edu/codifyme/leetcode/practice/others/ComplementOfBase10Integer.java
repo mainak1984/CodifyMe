@@ -2,6 +2,7 @@ package edu.codifyme.leetcode.practice.others;
 
 /**
  * 1009. Complement of Base 10 Integer
+ * 476. Number Complement
  * EASY: https://leetcode.com/problems/complement-of-base-10-integer/
  *
  * Every non-negative integer N has a binary representation.  For example, 5 can be represented as "101" in binary, 11
