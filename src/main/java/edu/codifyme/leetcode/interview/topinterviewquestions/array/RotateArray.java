@@ -26,6 +26,11 @@ package edu.codifyme.leetcode.interview.topinterviewquestions.array;
  *
  * Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
  * Could you do it in-place with O(1) extra space?
+ *
+ * Approach:
+ * - reverse 0 -> len-1
+ * - reverse 0 -> k-1
+ * - reverse k -> len-1
  */
 public class RotateArray {
     public void rotate(int[] nums, int k) {
@@ -61,7 +66,6 @@ public class RotateArray {
     /** BEST Solution
     public void rotate(int[] nums, int k) {
         k%=nums.length;
-
 
         reverse(nums, 0, nums.length-1);
         reverse(nums, 0, k-1);
