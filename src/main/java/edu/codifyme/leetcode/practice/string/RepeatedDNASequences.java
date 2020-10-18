@@ -11,7 +11,7 @@ import java.util.*;
  *
  * Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.
  *
- * Example 1:
+ * Example 1:tw
  * Input: s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
  * Output: ["AAAAACCCCC","CCCCCAAAAA"]
  *
