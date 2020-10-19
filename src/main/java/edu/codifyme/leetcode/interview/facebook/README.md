@@ -9,5 +9,7 @@
 #### **Mixed**
 * [Next Permutation](../google/arraynstring/NextPermutation.java) - **(MEDIUM)** - Common with Google
 * [Multiply Strings](../google/arraynstring/MultiplyString.java) - **(MEDIUM)** - Common with Google
+* [Add Binary](arraysnstring/AddBinary.java) - **(EASY)** - Editor's choice
+* [Merge Sorted Array](../../practice/array/MergeSortedArray.java) - **(MEDIUM)** - order of traverse is important
 
 
