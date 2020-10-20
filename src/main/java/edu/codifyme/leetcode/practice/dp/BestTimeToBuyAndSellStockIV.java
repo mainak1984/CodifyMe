@@ -24,6 +24,44 @@ package edu.codifyme.leetcode.practice.dp;
  * 0 <= k <= 109
  * 0 <= prices.length <= 104
  * 0 <= prices[i] <= 1000
+ *
+ * Algorithm:
+ * In the previous part, we introduced an intuitive idea from brute force to dp method, and here we need to decide the
+ * details of the algorithm.
+ *
+ * We can either store the dp results in a dict or an array. Array costs less time for accessing and updating than dict,
+ * so we always prefer an array when possible. Because of three needed characteristics (day number, transaction number
+ * used, stock holding status), a three-dimensional array is our choice. We can use
+ * dp[day_number][used_transaction_number][stock_holding_status] to represent our states, where stock_holding_status is
+ * a 0/1 number representing whether you hold the stock or not.
+ *
+ * The value of dp[i][j][l] represents the best profit we can have at the end of the i-th day, with j remaining
+ * transactions to make and l stocks.
+ *
+ * The next step is finding out the so-called "transition equation", which is a method that tells you how to jump from
+ * one state to another.
+ *
+ * We start with dp[0][0][0] = 0 and dp[0][0][1]=-prices[0], and our final aim is max of dp[n-1][j][0] from j=0 to j=k.
+ * Now, we need to fill out the entire array to find out the result. Assume we have gotten the results before day i, and we need to calculate the profit of day i. There are only four possible actions we can do on day i: 1. keep holding the stock, 2. keep not holding the stock, 3. buy the stock, or 4. sell the stock. The profit is easy to calculate.
+ *
+ * 1. Keep holding the stock:
+ * dp[i][j][1]=dp[i−1][j][1]
+ *
+ * 2. Keep not holding the stock:
+ * dp[i][j][0] = dp[i-1][j][0]
+ *
+ * 3. Buying, when j>0:
+ * dp[i][j][1] = dp[i-1][j-1][0]-prices[i]
+ *
+ * 4. Selling:
+ * dp[i][j][0]=dp[i−1][j][1]+prices[i]
+ *
+ * We can combine they together to find the maximum profit:
+ * dp[i][j][1]=max(dp[i−1][j][1],dp[i−1][j−1][0]−prices[i])
+ * dp[i][j][0]=max(dp[i−1][j][0],dp[i−1][j][1]+prices[i])
+ *
+ * Awesome! Now we can use for-loop to calculate the whole dp array and achieve our final result. Remember to solve the
+ * special cases when 2k > n.
  */
 public class BestTimeToBuyAndSellStockIV {
     public int maxProfit(int k, int[] prices) {

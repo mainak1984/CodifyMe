@@ -12,6 +12,7 @@
 * [Target Sum](dp/TargetSum.java) - **(MEDIUM)** - Variation of 0/1 Knapsack
 * [Best Time to Buy and Sell Stock III](dp/BestTimeToBuyAndSellStockIII.java) - **(HARD)**
 * [Word Break](dp/WordBreak.java) - **(MEDIUM)**
+* [Best Time to Buy and Sell Stock IV](dp/BestTimeToBuyAndSellStockIV.java) - **(HARD)
 
 ### _**Graph:**_
 * [Largest Component Size by Common Factor](graph/LargestComponentSizeByCommonFactor.java) - **(HARD)** - Application of Union find
@@ -31,6 +32,7 @@
 
 ### _**Search and Sort:**_
 * [Pancake Sorting](searchnsort/PancakeSorting.java) - **(MEDIUM)**
+* [Sort List](searchnsort/SortList.java) - **(MEDIUM)**
 
 ### _**Tree:**_
 * [Path Sum III](tree/PathSumIII.java) - **(MEDIUM)** - Prefix Array
