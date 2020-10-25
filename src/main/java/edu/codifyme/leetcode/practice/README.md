@@ -12,7 +12,8 @@
 * [Target Sum](dp/TargetSum.java) - **(MEDIUM)** - Variation of 0/1 Knapsack
 * [Best Time to Buy and Sell Stock III](dp/BestTimeToBuyAndSellStockIII.java) - **(HARD)**
 * [Word Break](dp/WordBreak.java) - **(MEDIUM)**
-* [Best Time to Buy and Sell Stock IV](dp/BestTimeToBuyAndSellStockIV.java) - **(HARD)
+* [Best Time to Buy and Sell Stock IV](dp/BestTimeToBuyAndSellStockIV.java) - **(HARD)**
+* [Stone Game IV](dp/StoneGameIV.java) - **(HARD)**
 
 ### _**Graph:**_
 * [Largest Component Size by Common Factor](graph/LargestComponentSizeByCommonFactor.java) - **(HARD)** - Application of Union find
@@ -29,6 +30,7 @@
 * [Longest Valid Parenthesis](stacknqueue/LongestValidParenthesis.java) - **(HARD)**
 * [Increasing Order Search Tree](stacknqueue/IncreasingOrderSearchTree.java) - **(EASY)**
 * [Remove Duplicate Letters](stacknqueue/RemoveDuplicateLetters.java) - **(MEDIUM)**
+* [132 Pattern](stacknqueue/OneThirtyTwoPattern.java) - **(MEDIUM)**
 
 ### _**Search and Sort:**_
 * [Pancake Sorting](searchnsort/PancakeSorting.java) - **(MEDIUM)**
