@@ -14,6 +14,7 @@
 * [Word Break](dp/WordBreak.java) - **(MEDIUM)**
 * [Best Time to Buy and Sell Stock IV](dp/BestTimeToBuyAndSellStockIV.java) - **(HARD)**
 * [Stone Game IV](dp/StoneGameIV.java) - **(HARD)**
+* [Champagne Tower](dp/ChampagneTower.java) - **(MEDIUM)**
 
 ### _**Graph:**_
 * [Largest Component Size by Common Factor](graph/LargestComponentSizeByCommonFactor.java) - **(HARD)** - Application of Union find
