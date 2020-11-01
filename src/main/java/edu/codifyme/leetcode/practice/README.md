@@ -41,6 +41,7 @@
 ### _**Tree:**_
 * [Path Sum III](tree/PathSumIII.java) - **(MEDIUM)** - Prefix Array
 * [All Elements in Two Binary Search Trees](tree/AllElementsInTwoBST.java) - **(MEDIUM)**
+* [Encode N-ary Tree to Binary Tree](tree/EncodeNaryTreeToBinaryTree.java) - **(HARD)**
 
 ### _**Other:**_
 * [Wildcard Matching](others/WildcardMatching.java) - **(HARD)**
