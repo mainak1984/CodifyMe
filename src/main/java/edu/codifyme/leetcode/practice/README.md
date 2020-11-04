@@ -42,10 +42,10 @@
 * [Path Sum III](tree/PathSumIII.java) - **(MEDIUM)** - Prefix Array
 * [All Elements in Two Binary Search Trees](tree/AllElementsInTwoBST.java) - **(MEDIUM)**
 * [Encode N-ary Tree to Binary Tree](tree/EncodeNaryTreeToBinaryTree.java) - **(HARD)**
+* [Minimum Height Trees](tree/MinimumHeightTrees.java) - **(MEDIUM)**
 
 ### _**Other:**_
 * [Wildcard Matching](others/WildcardMatching.java) - **(HARD)**
 * [Permutations](others/Permutations.java) - **(MEDIUM)**
 * [Iterator for Combination](others/IteratorForCombination.java) - **(MEDIUM)**
 * [Majority Element II](others/MajorityElementII.java) - **(MEDIUM)** - Application of Boyer-Moore Voting Algorithm
-
