@@ -35,7 +35,6 @@ package edu.codifyme.leetcode.practice.tree;
  * maximum and minimum value of its ancestors, as input.
  * In the function helper, we need to update the maximum difference, the current maximum value, and the current minimum
  * value.
- *
  */
 public class MaxDiffBetweenNodeAndAncestor {
     public int maxAncestorDiff(TreeNode root) {
