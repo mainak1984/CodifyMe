@@ -11,5 +11,7 @@
 * [Multiply Strings](../google/arraynstring/MultiplyString.java) - **(MEDIUM)** - Common with Google
 * [Add Binary](arraysnstring/AddBinary.java) - **(EASY)** - Editor's choice
 * [Merge Sorted Array](../../practice/array/MergeSortedArray.java) - **(MEDIUM)** - order of traverse is important
+* [Product of Array Except Self](arraysnstring/ProductOfArrayExceptSelf.java) - **(MEDIUM)** - Editor's choice
+* [Integer to English Words](arraysnstring/IntegerToEnglishWords.java) - **(HARD)** - Editor's choice
 
 
