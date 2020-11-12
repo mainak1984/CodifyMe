@@ -1,5 +1,7 @@
 package edu.codifyme.leetcode.practice.others;
 
+import java.util.Arrays;
+
 /**
  * 593. Valid Square
  * MEDIUM: https://leetcode.com/problems/valid-square/
