@@ -33,6 +33,7 @@
 * [Increasing Order Search Tree](stacknqueue/IncreasingOrderSearchTree.java) - **(EASY)**
 * [Remove Duplicate Letters](stacknqueue/RemoveDuplicateLetters.java) - **(MEDIUM)**
 * [132 Pattern](stacknqueue/OneThirtyTwoPattern.java) - **(MEDIUM)**
+* [Basic Calculator II](stacknqueue/BasicCalculatorII.java) - **(MEDIUM)**
 
 ### _**Search and Sort:**_
 * [Pancake Sorting](searchnsort/PancakeSorting.java) - **(MEDIUM)**
