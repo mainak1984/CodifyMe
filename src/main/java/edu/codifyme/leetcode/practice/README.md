@@ -45,6 +45,7 @@
 * [All Elements in Two Binary Search Trees](tree/AllElementsInTwoBST.java) - **(MEDIUM)**
 * [Encode N-ary Tree to Binary Tree](tree/EncodeNaryTreeToBinaryTree.java) - **(HARD)**
 * [Minimum Height Trees](tree/MinimumHeightTrees.java) - **(MEDIUM)**
+* [Populating Next Right Pointers in Each Node II](tree/PopulatingNextRightPointersInEachNodeII.java) - **(MEDIUM)**
 
 ### _**Other:**_
 * [Wildcard Matching](others/WildcardMatching.java) - **(HARD)**
