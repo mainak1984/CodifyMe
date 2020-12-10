@@ -13,5 +13,10 @@
 * [Merge Sorted Array](../../practice/array/MergeSortedArray.java) - **(MEDIUM)** - order of traverse is important
 * [Product of Array Except Self](arraysnstring/ProductOfArrayExceptSelf.java) - **(MEDIUM)** - Editor's choice
 * [Integer to English Words](arraysnstring/IntegerToEnglishWords.java) - **(HARD)** - Editor's choice
+* [Subarray Sum Equals K](arraysnstring/SubarraySumEqualsK.java) - **(MEDIUM)**
 
+### _**Linked List:**_
+* [Add Two Numbers](../google/list/AddTwoNumbers.java) - **(MEDIUM)** - Common with Google
+* [Copy List with Random Pointer](../google/list/CopyListwithRandomPointer.java) - **(MEDIUM)** - Common with Google
+* [Reorder List](../../practice/list/ReorderList.java) - **(MEDIUM)**
 
