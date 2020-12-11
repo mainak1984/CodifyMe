@@ -43,10 +43,29 @@ package edu.codifyme.leetcode.practice.array;
  * nums is sorted in ascending order.
  *
  * Approach:
- * 
+ *
  */
 public class RemoveDuplicatesFromSortedArrayII {
     public int removeDuplicates(int[] nums) {
+        int j = 1, count = 1;
+
+        for (int i = 1; i < nums.length; i++) {
+
+            if (nums[i] == nums[i - 1]) {
+                count++;
+            } else {
+                count = 1;
+            }
+            
+            if (count <= 2) {
+                nums[j++] = nums[i];
+            }
+        }
+        return j;
+    }
+
+    // Alternate approach:
+    public int removeDuplicates1(int[] nums) {
         if (nums.length < 3) {
             return nums.length;
         }
