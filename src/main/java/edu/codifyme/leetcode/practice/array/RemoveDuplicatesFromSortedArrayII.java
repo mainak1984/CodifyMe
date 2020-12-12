@@ -56,7 +56,7 @@ public class RemoveDuplicatesFromSortedArrayII {
             } else {
                 count = 1;
             }
-            
+
             if (count <= 2) {
                 nums[j++] = nums[i];
             }
