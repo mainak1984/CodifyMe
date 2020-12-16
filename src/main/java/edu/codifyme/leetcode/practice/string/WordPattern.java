@@ -47,7 +47,7 @@ public class WordPattern {
                 bijection.put(ch, parts[i]);
             } else {
                 if (!val.equals(parts[i])) {
-                    return false;i
+                    return false;
                 }
             }
             i++;
