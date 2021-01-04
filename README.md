@@ -30,7 +30,6 @@ All programming practice in a single place
 
 Pending List:
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/submissions/https://leetcode.com/problems/recover-binary-search-tree/
-
 https://leetcode.com/problems/mirror-reflection/https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 https://leetcode.com/problems/numbers-at-most-n-given-digit-set/
 https://leetcode.com/problems/house-robber-iii/
