@@ -46,8 +46,8 @@ public class KthMissingPositiveNumber {
         int left = 0, right = arr.length - 1;
         while (left <= right) {
             int pivot = left + (right - left) / 2;
-            // If number of positive integers which are missing before arr[pivot] is less than k -->
-            // continue to search on the right.
+            // If number of positive integers which are missing before arr[pivot] is less than k --> continue to search
+            // on the right.
             if (arr[pivot] - pivot - 1 < k) {
                 left = pivot + 1;
                 // Otherwise, go left.
