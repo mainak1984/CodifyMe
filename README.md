@@ -50,4 +50,5 @@ https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/
 https://leetcode.com/problems/reach-a-number/
 https://leetcode.com/problems/largest-rectangle-in-histogram/
 https://leetcode.com/problems/beautiful-arrangement/
+https://leetcode.com/problems/create-sorted-array-through-instructions/
 
