@@ -20,3 +20,5 @@
 * [Copy List with Random Pointer](../google/list/CopyListwithRandomPointer.java) - **(MEDIUM)** - Common with Google
 * [Reorder List](../../practice/list/ReorderList.java) - **(MEDIUM)**
 
+### _**Trees and Graphs:**_
+* [Binary Tree Maximum Path Sum](../google/treesngrapsh/BinaryTreeMaxPathSum.java) - **(MEDIUM)** - Common with Google
