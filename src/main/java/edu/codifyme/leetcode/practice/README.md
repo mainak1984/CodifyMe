@@ -17,6 +17,7 @@
 * [Stone Game IV](dp/StoneGameIV.java) - **(HARD)**
 * [Champagne Tower](dp/ChampagneTower.java) - **(MEDIUM)**
 * [Number of Longest Increasing Subsequence](dp/NorOfLongestIncreasingSubsequence.java) - **(MEDIUM)**
+* [Unique Paths II](dp/UniquePathsII.java) - **(MEDIUM)**
 
 ### _**Graph:**_
 * [Largest Component Size by Common Factor](graph/LargestComponentSizeByCommonFactor.java) - **(HARD)** - Application of Union find
